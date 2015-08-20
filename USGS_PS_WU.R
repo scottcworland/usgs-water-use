@@ -5,13 +5,12 @@ libs <- c("ggplot2", "ggmap","maps", "acs","rgdal", "rgeos", "zoo","xts", "plyr"
           "RColorBrewer","maptools","reshape2","gridExtra","abind","grid");
 lapply(libs, library, character.only=T);
 
-setwd("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conservation\\USGSwaterUse")
+setwd("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conservation\\USGSwaterUse\\usgs-water-use")
 
 # File preparation, skip to line 45 to load dataframes ----
 
-
-# load data for each year (SLOW!). The combined file is a .rda and can
-# be loaded in line 36... much faster
+# load data for each year. The combined file is a .rda and can
+# be loaded in line 36
 d85 = read.csv("County_PS_1985.csv", header=T)
 d90 = read.csv("County_PS_1990.csv", header=T)
 d95 = read.csv("County_PS_1995.csv", header=T)
@@ -20,6 +19,10 @@ d05 = read.csv("County_PS_2005.csv", header=T)
 d10 = read.csv("County_PS_2010.csv", header=T)
 
 # load county and MSA data (GEOID=MSA fips)
+MSA_cnty_Region=read.csv("MSA_cnty_Region.csv",header=T)
+MSA_cnty_Region$cntyFIPS <- sprintf("%05d", MSA_cnty_Region$cntyFIPS)
+save(MSA_cnty_Region,file="MSA_cnty_ST_FIPS_REGION.rda")
+
 load("MSA_cnty_ST_FIPS_REGION.rda") # load cnty_regions
 load("MSA_ST_FIPS_REGION.rda") # load MSA_regions
 
@@ -29,16 +32,17 @@ D = merge(D,d95,"cntyFIPS")
 D = merge(D,d00,"cntyFIPS")
 D = merge(D,d05,"cntyFIPS")
 D = merge(D,d10,"cntyFIPS")
+D$cntyFIPS = sprintf("%05d",D$cntyFIPS)
 
 WUcnty = D
 save(WUcnty,file="USGSWU1985_2010cnty.rda")
 
 # Aggregate into MSA
 load("USGSWU1985_2010cnty.rda")
-D2 = merge(MSA_cnty_Region,WUcnty,"cntyFIPS")
-D3 = aggregate(D2[,6:35],list(D2$GEOID),sum)
-colnames(D3)[1] = "GEOID"
-D4 = merge(MSA_Region,D3,"GEOID")
+D2 = merge(MSA_cnty_Region,WUcnty,"cntyFIPS") #check
+D3 = aggregate(D2[,6:35],list(D2$GEOID,D2$State),sum) #check
+colnames(D3)[1:2] = c("GEOID","State") #check
+D4 = merge(MSA_Region[,2:4],D3,"GEOID") #check
 
 WUMSAcnty = D2
 WUMSA = D4
@@ -60,6 +64,16 @@ WSW = WUMSA[,c(7,12,17,22,27,32)]
 Wtot = WUMSA[,c(8,13,18,23,28,33)]
 domestic = WUMSA[,c(9,14,19,24,29,34)] 
 
+# normalize to population
+WGWn = WGW/pop * 1000
+WSWn = WSW/pop * 1000
+Wtotn = Wtot/pop * 1000
+Wtotn[Wtotn>1000] = NA
+Wn = Wtotn
+
+colnames(Wn) = c("Wn1985","Wn1990","Wn1995","Wn2000","Wn2005","Wn2010")
+
+# Basic exploratory plots ----
 Sums = data.frame(colSums(Wtot))
 colnames(Sums) = "Total"
 Sums$domestic = colSums(domestic)
@@ -72,20 +86,15 @@ p = p + scale_fill_manual(values=c(Total="grey55",domestic="lightblue"),name = "
 p = p + ggtitle("Public Supply Withdrawals")
 p
 
-# normalize to population
-WGWn = WGW/pop * 1000
-WSWn = WSW/pop * 1000
-Wtotn = Wtot/pop * 1000
-Wtotn[Wtotn>1000] = NA
-
-PStotn = cbind(WUMSA$GEOID,Wtotn)
+PStotn = cbind(WUMSA$GEOID,Wn)
 colnames(PStotn) = c("GEOID","1985","1990","1995","2000","2005","2010")
 
 ## boxplot
 p = ggplot(melt(PStotn, id="GEOID")) 
 p = p + geom_boxplot(aes(variable,value), fill = "dodgerblue")
 p = p + theme_bw(base_size=20)
-p = p + xlab("") + ylab("Total Fr Public Supply")
+p = p + xlab("") + ylab("gal/p/day")
+p = p + ggtitle("Normalized Fresh Water PS Withdrawals")
 p
 
 # percent domestic deliveries ----
@@ -138,12 +147,12 @@ save(dat, file="TSarray.rda")
 
 # change column names to year and add a type column
 years = c("1985","1990","1995","2000","2005","2010")
-colnames(pop) = years; colnames(wthdrwl) = years
+colnames(pop) = years; 
 colnames(WGW) = years; WGW$type = "ground"
 colnames(WSW) = years; WSW$type = "surface"
 #colnames(Wtot) = years; Wtot$type = "total"
 
-# melt dataframes and combine for plotting ----
+# I am not sure what this all is for ----
 WGW1 = melt(cbind(WUMSA[,c(1,4)],WGW), id = c("GEOID","Region","type"))
 WSW1 = melt(cbind(WUMSA[,c(1,4)],WSW), id = c("GEOID","Region","type"))
 NW_type = rbind(WGW1,WSW1)
@@ -162,37 +171,35 @@ colnames(Wthdrwl3)[2:3] = c("year","withdrawal")
 library(lme4); library(arm); library(coefplot2)
 #install.packages("coefplot2",repos="http://www.math.mcmaster.ca/bolker/R")
 
-#Prepare data for null model
-d = data.frame(cbind(WUMSA$GEOID,WUMSA$State,Wtot$PSWFrTo1985))
-colnames(d) = c("MSA","State","y")
+## Prepare data for null model
+d = data.frame(WUMSA$State)
+d$GEOID = WUMSA$GEOID
+d$Wn=Wn$Wn2010
+d = na.omit(d) #kingston NY has value > 1000
+colnames(d) = c("State","MSA","Wn")
 
-m1 = lmer(y~1 + (1|State),data=d)
+# completely pooled
+av = mean(d$Wn)
+
+## unpooled for states
+m1 = lmer(Wn ~ 1 + (1|State),data=d)
 cf = coef(m1)$State
 se = se.coef(m1)
 x = cbind(cf,se$State)
 colnames(x) = c("alpha","se")
+x$State = rownames(x)
+rownames(x) = NULL
 
-# plots ----
+p = ggplot(x, aes(x=State, y=alpha)) 
+p = p + geom_point(size = 2) + xlab("")
+p = p + geom_errorbar(aes(ymin=alpha-se, ymax=alpha+se), width=.1) 
+p = p + geom_hline(aes(yintercept=av), linetype=2)
+p = p + theme_bw(base_size=20) + coord_flip()
+p = p + ggtitle("Null model for 2010 Wn")
+p = p + ylab("alpha (gal/p/day)")
+p
 
-# boxplot of withdrawal and population
-p1 = ggplot(pop3) + geom_boxplot(aes(factor(year),log(pop),fill=factor(year))) +
-  guides(fill=FALSE) + xlab("Years")
-p2 = ggplot(Wthdrwl3) + geom_boxplot(aes(factor(year),log(withdrawal),fill=factor(year))) +
-  guides(fill=FALSE) + xlab("Years")
-
-grid.arrange(p1,p2,ncol=1)
-
-# boxplot of normalized water use
-p = ggplot(NW_type)  
-p = p + geom_boxplot(aes(Region,withdrawal,fill=Region,color=year), alpha=0.8)
-p = p + facet_wrap(~type, ncol=1) + ylim(c(0,650))
-p = p + scale_fill_brewer(palette="Dark2")
-p = p + scale_color_manual(values=c("black","black","black","black","black","black","black"))
-p = p + xlab("Years (1985-2010)") + ylab("PS Withdrawal") + guides(color=F) + guides(fill=F)
-p = p + ggtitle("Normalized Public Supply withdrawal for 315 MSAs") + theme_grey(base_size = 20)
-
-  
-# Plot.ly plot 
+# Plot.ly plot ----
 install.packages("devtools")
 library("devtools")
 install_github("ropensci/plotly")
@@ -200,9 +207,25 @@ library(plotly)
 
 py = plotly(user="scottcworland", key="7tbehcvpcd")
 response = py$ggplotly()
+
+# regional plot----
+
+# boxplot of normalized water use
+WnR = cbind(WUMSA[,3],Wn)
+colnames(WnR)[1] = "Region"
+WnR2 = melt(WnR, id="Region")
+colnames(WnR2)[2:3] = c("year","Wn")
+
+p = ggplot(WnR2)  
+p = p + geom_boxplot(aes(Region,Wn,fill=Region,color=year), alpha=0.8)
+p = p + scale_fill_brewer(palette="Dark2")
+p = p + scale_color_manual(values=c("black","black","black","black","black","black","black"))
+p = p + xlab("Years (1985-2010)") + ylab("Wn (gal/p/day)") + guides(color=F) + guides(fill=F)
+p = p + ggtitle("Normalized Public Supply withdrawal for 315 MSAs") + theme_bw(base_size = 20)
+p
   
 
-# Regional map ----
+# Regional map
 all_states = map_data("state")
 regions = read.delim("Regions.txt", header=T)
 load("MSA_ST_FIPS_REGION.rda")
@@ -216,7 +239,7 @@ cen$N = data.frame(table(MSA_Region$Region))[c(1:4,6:8),2]
 colnames(cen)[1] = "Region"
 
 # Map of regions
-m = ggplot()
+m = ggplot() + coord_fixed(1.3)
 m = m + geom_polygon(data=all_states, aes(x=long, y=lat, group = group, fill = Region),
                       color="black",size=0.5 );
 m = m + scale_fill_brewer(palette="Dark2") + guides(fill=F)
