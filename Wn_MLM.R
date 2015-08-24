@@ -5,7 +5,7 @@ library(ggplot2)
 library(rjags)
 library(ggmcmc)
 
-setwd("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conservation\\USGSwaterUse\\usgs-water-use")
+setwd(getwd())
 
 # Load data and prepare for models ----
 load("MSA_Wn.rda")
