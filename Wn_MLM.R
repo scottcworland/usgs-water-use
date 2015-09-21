@@ -81,10 +81,10 @@ x$sd = sd.a.nopred
 p = ggplot(data=x) 
 p = p + geom_point(aes(x=State, y=alpha2), size = 3, color = "red", shape = 7)
 #p = p + geom_errorbar(aes(x=State, y=alpha2, ymin=alpha2-sd, ymax=alpha2+sd), 
-#                      width=.1, color ="red") 
+#                     width=.1, color ="red") 
 p = p + geom_point(aes(x=State, y=alpha), size = 3) + xlab("")
 p = p + geom_errorbar(aes(x=State, y=alpha, ymin=alpha-se, ymax=alpha+se), 
-                      width=.1, alpha=0.7) 
+                      width=.1, alpha=1) 
 p = p + geom_hline(aes(yintercept=av), linetype=2)#
 p = p + theme_bw(base_size=20) + coord_flip()
 p = p + ggtitle("Null model for 2010 Wn")

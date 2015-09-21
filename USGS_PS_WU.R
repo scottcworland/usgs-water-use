@@ -54,6 +54,11 @@ load("USGSWU1985_2010cnty.rda")
 load("USGSWU1985_2010MSA.rda")
 load("USGSWU1985_2010MSAcnty.rda")
 
+## add BEA regions
+BEA_regions = read.csv("BEA_regions.csv",header=T)
+WUMSA = merge(WUMSA,BEA_regions, "State")
+WUMSAcnty = merge(WUMSAcnty,BEA_regions, "State")
+
 # set 0 to NA for domestic deliveries in 2000
 WUMSA$DOPSDel2000=NA
 
@@ -72,6 +77,8 @@ Wtotn[Wtotn>1000] = NA
 Wn = Wtotn
 
 colnames(Wn) = c("Wn1985","Wn1990","Wn1995","Wn2000","Wn2005","Wn2010")
+
+save(Wn,file="MSA_Wn.rda")
 
 # Basic exploratory plots ----
 Sums = data.frame(colSums(Wtot))
@@ -167,38 +174,6 @@ wthdrwl2 = cbind(WUMSA[1],wthdrwl)
 Wthdrwl3 = melt(wthdrwl2, id.vars = "GEOID")
 colnames(Wthdrwl3)[2:3] = c("year","withdrawal")
 
-# Multilevel model ----
-library(lme4); library(arm); library(coefplot2)
-#install.packages("coefplot2",repos="http://www.math.mcmaster.ca/bolker/R")
-
-## Prepare data for null model
-d = data.frame(WUMSA$State)
-d$GEOID = WUMSA$GEOID
-d$Wn=Wn$Wn2010
-d = na.omit(d) #kingston NY has value > 1000
-colnames(d) = c("State","MSA","Wn")
-
-# completely pooled
-av = mean(d$Wn)
-
-## unpooled for states
-m1 = lmer(Wn ~ 1 + (1|State),data=d)
-cf = coef(m1)$State
-se = se.coef(m1)
-x = cbind(cf,se$State)
-colnames(x) = c("alpha","se")
-x$State = rownames(x)
-rownames(x) = NULL
-
-p = ggplot(x, aes(x=State, y=alpha)) 
-p = p + geom_point(size = 2) + xlab("")
-p = p + geom_errorbar(aes(ymin=alpha-se, ymax=alpha+se), width=.1) 
-p = p + geom_hline(aes(yintercept=av), linetype=2)
-p = p + theme_bw(base_size=20) + coord_flip()
-p = p + ggtitle("Null model for 2010 Wn")
-p = p + ylab("alpha (gal/p/day)")
-p
-
 # Plot.ly plot ----
 install.packages("devtools")
 library("devtools")
@@ -211,7 +186,7 @@ response = py$ggplotly()
 # regional plot----
 
 # boxplot of normalized water use
-WnR = cbind(WUMSA[,3],Wn)
+WnR = cbind(WUMSA[,35],Wn)
 colnames(WnR)[1] = "Region"
 WnR2 = melt(WnR, id="Region")
 colnames(WnR2)[2:3] = c("year","Wn")
@@ -227,20 +202,18 @@ p
 
 # Regional map
 all_states = map_data("state")
-regions = read.delim("Regions.txt", header=T)
-load("MSA_ST_FIPS_REGION.rda")
-colnames(all_states)[5] = "STATE_FULL"
-all_states = merge(all_states, regions, "STATE_FULL")
+colnames(all_states)[5] = "State_full"
+all_states = merge(all_states, BEA_regions, "State_full")
 all_states = all_states[order(all_states$order),];
 
 # find approximate centroids and of regions and number of MSAs
-cen = aggregate(all_states[,2:3], list(all_states$Region), mean)
-cen$N = data.frame(table(MSA_Region$Region))[c(1:4,6:8),2]
-colnames(cen)[1] = "Region"
+cen = aggregate(all_states[,2:3], list(all_states$BEA_Region), mean)
+cen$N = data.frame(table(WUMSA$BEA_Region))[,2]
+colnames(cen)[1] = "BEA_Region"
 
 # Map of regions
 m = ggplot() + coord_fixed(1.3)
-m = m + geom_polygon(data=all_states, aes(x=long, y=lat, group = group, fill = Region),
+m = m + geom_polygon(data=all_states, aes(x=long, y=lat, group = group, fill = BEA_Region),
                       color="black",size=0.5 );
 m = m + scale_fill_brewer(palette="Dark2") + guides(fill=F)
 m = m + geom_text(data=cen, aes(long, lat, label=N), color= "black", size=10, fontface="bold")
