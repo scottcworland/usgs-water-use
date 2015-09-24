@@ -1,12 +1,33 @@
+---
+title: "USGS public supply EDA"
+author: "Scott Worland"
+date: "Tuesday, September 22, 2015"
+output: ioslides_presentation
+---
 
-library(reshape2); library(ggplot2); library(rgdal); library(ggmap)
-library(RColorBrewer)
+
+## Overview
+
+Two major research objectives:
+
+1. Explore where public supply freshwater withdrawals have changed from 1985-2010 using county level data. 
+2. Explore possible environmental, social, and economic drivers of these changes.
+
+Possible journal outlets: 
+
++ WRR  
++ JAWRA
+
+but...
+
+## Per capita withdrawals
+
+```{r, echo=F, message=F,warning=F,}
+library(reshape2);
 
 ## load original data
 load("USGSWU1985_2010cnty.rda")
 d <- WUcnty
-
-# Data processing ----
 
 ## subsample
 pop = d[,c(1,2,7,12,17,22,27)]
@@ -28,18 +49,46 @@ total2 = melt(total, variable.name = "year", value.name = "total")
 
 d2 = cbind(pop2,ground2[,3],surface2[,3],total2[,3])
 colnames(d2)[4:6] = c("ground","surface","total")
-d3 = melt(d2, id.vars = c("cntyFIPS", "year","pop"),variable.name = "type",value.name="withdrl")
+d3 = melt(d2, id.vars = c("cntyFIPS", "year","pop"),variable.name = "type", value.name="withdrl")
 d3$wn = d3$withdrl/d3$pop * 1000
+```
 
-# boxplot of log10 wn through time and by type ----
+
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F,warning=F, fig.align='center', fig.width=8,fig.height=5.5}
+library(ggplot2)
+
 p <- ggplot(d3) 
-p <- p + geom_hline(aes(yintercept=3), color="red",linetype = 2, size = 1) 
-p <- p + geom_hline(aes(yintercept=0), color="red",linetype = 2, size = 1)
+p <- p + geom_hline(aes(yintercept=3), color="black",linetype = 2, size = 0.5) 
+p <- p + geom_hline(aes(yintercept=0), color="black",linetype = 2, size = 0.5)
 p <- p + geom_boxplot(aes(type, log10(wn) , fill = year)) + theme_bw(base_size=16)
 p
+```
 
+## Exploratory data analysis of public supply data
 
-# maps ----
++ Analyze the very high and very low per capita withdrawals
++ Publish EDA findings in OFR/SIR to reference in journal article
++ This presentation contains some of the preliminary investigation
+
+## 2010 National withdrawals
+```{r, echo=F, message=F, warning=F,}
+theme_blank <- function(){
+  require(grid)
+  theme(panel.background = element_rect(fill = "transparent",color=NA),
+        plot.background = element_rect(fill = "transparent",color=NA),
+        legend.background = element_rect(fill = "transparent",color=NA),
+        text = element_text(size=20),
+        axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        plot.margin=unit(c(0,0,-1,-1),"lines"))
+}
+```
+
+```{r, echo=F, message=F, warning=F, fig.align='center', cache=T, results='hide'}
+library(rgdal); library(ggmap); library(RColorBrewer)
 
 counties <- readOGR("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conservation\\MSA\\county_shapefiles",
                     layer="cb_2013_us_county_500k");
@@ -64,27 +113,31 @@ d4$brk2 <- cut(d4$withdrl, breaks=c(0, 5, 10, 20, 40, 80, 160, 320, 640),
 
 cnty.WU <- merge(cnty.poly,d4,by="cntyFIPS")
 cnty.WU <- cnty.WU[order(cnty.WU$order),]
+```
 
-## Lower 48 normalized
-m = ggplot(data=cnty.WU) + coord_fixed(1.3)
-m = m + geom_polygon(aes(long,lat, group=group,fill=brk), color=NA)
-m = m + geom_polygon(data=state.poly,aes(long,lat, group=group), color="grey", fill=NA, size=0.5)
-m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
-m = m + ggtitle("2010 Fresh Water Puplic Supply Withdrawal/2010 County Pop")
-m = m + labs(fill="gal/p/d") + theme_blank()
-m
-
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=9.5, fig.height=6.5, fig.align='center', cache=T}
 ## Lower 48 raw
 m = ggplot(data=cnty.WU) + coord_fixed(1.3)
 m = m + geom_polygon(aes(long,lat, group=group,fill=brk2), color=NA)
 m = m + geom_polygon(data=state.poly,aes(long,lat, group=group), color="grey", fill=NA, size=0.5)
 m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
-m = m + ggtitle("2010 Fresh Water Puplic Supply Withdrawal")
 m = m + labs(fill="Mgal/day") + theme_blank()
 m
+```
 
+## 2010 National per capita withdrawal
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=9.5, fig.height=6.5, fig.align='center', cache=T}
+## Lower 48
+m = ggplot(data=cnty.WU) + coord_fixed(1.3)
+m = m + geom_polygon(aes(long,lat, group=group,fill=brk), color=NA)
+m = m + geom_polygon(data=state.poly,aes(long,lat, group=group), color="white", fill=NA,size=0.5)
+m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
+m = m + labs(fill="gal/p/d") + theme_blank()
+m
+```
 
-## New york
+## Map of New York per capita withdrawals
+```{r, echo=F, message=F, warning=F, fig.align='center', cache=T, results='hide'}
 NY.WU <- subset(cnty.WU, STATEFP==36)
 NY.poly <- subset(state.poly, region == "new york")
 
@@ -94,6 +147,28 @@ NYCws <- readOGR("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conserva
 NYCws2 <- spTransform(NYCws, CRS("+proj=longlat + datum=WGS84"));
 NYCws2@data$id = rownames(NYCws2@data)
 NYC.ws <- fortify(NYCws2, region="id");
+```
+
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=8, fig.height=5, fig.align='center', cache=T}
+## New york
+NY.WU <- subset(cnty.WU, STATEFP==36)
+NY.poly <- subset(state.poly, region == "new york")
+
+## normalized withdrawals
+m = ggplot(data=NY.WU) + coord_fixed(1.3)
+m = m + geom_polygon(aes(long,lat, group=group,fill=brk), color="grey", size=0.125)
+m = m + geom_polygon(data=NY.poly,aes(long,lat, group=group), color="black", fill=NA,size=0.5)
+m = m + scale_fill_manual(values=rev(brewer.pal(5, 'YlGnBu')))
+m = m + labs(fill="gal/p/d") + theme_blank()
+m
+```
+
+## 2010 New York per capita withdrawals
+
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=8, fig.height=5, fig.align='center', cache=T}
+## New york
+NY.WU <- subset(cnty.WU, STATEFP==36)
+NY.poly <- subset(state.poly, region == "new york")
 
 ## normalized withdrawals
 m = ggplot(data=NY.WU) + coord_fixed(1.3)
@@ -101,48 +176,61 @@ m = m + geom_polygon(aes(long,lat, group=group,fill=brk), color="grey", size=0.1
 m = m + geom_polygon(data=NYC.ws, aes(long,lat, group=group), fill="darkorchid1",alpha=0.7, color = "darkorchid4")
 m = m + geom_polygon(data=NY.poly,aes(long,lat, group=group), color="black", fill=NA,size=0.5)
 m = m + scale_fill_manual(values=rev(brewer.pal(5, 'YlGnBu')))
-m = m + ggtitle("New York withdrawals/pop 2010")
 m = m + labs(fill="gal/p/d") + theme_blank()
 m
+```
 
+## 2010 New York withdrawals
+
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=8, fig.height=5, fig.align='center', cache=T}
 ## withdrawals
 m = ggplot(data=NY.WU) + coord_fixed(1.3)
 m = m + geom_polygon(aes(long,lat, group=group,fill=brk2), color="grey", size=0.125)
 m = m + geom_polygon(data=NY.poly,aes(long,lat, group=group), color="black", fill=NA,size=0.5)
 m = m + geom_polygon(data=NYC.ws, aes(long,lat, group=group), fill="darkorchid1",alpha=0.7, color = "darkorchid4")
 m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
-m = m + ggtitle("New York withdrawals 2010")
 m = m + labs(fill="Mgal/day") + theme_blank()
 m
+```
 
+## 2010 Texas withdrawals
+
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=8, fig.height=5, fig.align='center', cache=T}
 ## Texas
 TX.WU <- subset(cnty.WU, STATEFP==48)
 TX.poly <- subset(state.poly, region == "texas")
 TX.cities <- geocode(c("Houston, TX", "San Antonio, TX","Dallas, TX", "Austin, TX"))
 
-### normalized withdrawals
-m = ggplot(data=TX.WU) + coord_fixed(1.3)
-m = m + geom_polygon(aes(long,lat, group=group,fill=brk), color="grey", size=0.125)
-m = m + geom_polygon(data=TX.poly,aes(long,lat, group=group), color="black", fill=NA,size=0.5)
-m = m + geom_point(data=TX.cities, aes(lon, lat), color = "black", fill="red", size = 4, pch=23)
-m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
-m = m + ggtitle("Texas withdrawals/pop 2010")
-m = m + labs(fill="gal/p/d") + theme_blank()
-m
-
-### withdrawals
+## withdrawals
 m = ggplot(data=TX.WU) + coord_fixed(1.3)
 m = m + geom_polygon(aes(long,lat, group=group,fill=brk2), color="grey", size=0.125)
 m = m + geom_polygon(data=TX.poly,aes(long,lat, group=group), color="black", fill=NA,size=0.5)
 m = m + geom_point(data=TX.cities, aes(lon, lat), color = "black", fill="red", size = 4, pch=23)
 m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
-m = m + ggtitle("Texas withdrawals 2010")
 m = m + labs(fill="Mgal/day") + theme_blank()
 m
+```
 
+## 2010 Texas per capita withdrawals
+
+```{r dev.args = list(bg = 'transparent'), echo=F, message=F, fig.width=8, fig.height=5, fig.align='center', cache=T}
+## normalized withdrawals
+m = ggplot(data=TX.WU) + coord_fixed(1.3)
+m = m + geom_polygon(aes(long,lat, group=group,fill=brk), color="grey", size=0.125)
+m = m + geom_polygon(data=TX.poly,aes(long,lat, group=group), color="black", fill=NA,size=0.5)
+m = m + geom_point(data=TX.cities, aes(lon, lat), color = "black", fill="red", size = 4, pch=23)
+m = m + scale_fill_manual(values=rev(brewer.pal(8, 'YlGnBu')))
+m = m + labs(fill="gal/p/d") + theme_blank()
+m
+```
+
+## Big users in Texas
+```{r, echo=F, message=F}
 ### clunky way to find high values
-high.TX <- data.frame(TX.WU[which(TX.WU$wn>1000),])
+high.TX <- data.frame(TX.WU[which(TX.WU$wn>2000),])
 high.TX <- high.TX[,c(1,12,17,19,20)]
 high.TX <- high.TX[!duplicated(high.TX),]
 rownames(high.TX) = NULL
-high.TX
+knitr::kable(high.TX, align='c', digits=5,format = "markdown")
+```
+
