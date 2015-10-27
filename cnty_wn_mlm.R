@@ -19,7 +19,7 @@ cnty.data$cntyFIPS <- sprintf("%05d", cnty.data$cntyFIPS)
 
 # lmer ----
 # completely pooled
-av = mean(cnty.data$Wn)
+av = mean(cnty.data$y.Wn.cnty)
 
 ## unpooled for states
 m1 = lmer(y.Wn.cnty ~ 1 + (1|State),data=cnty.data)
