@@ -5,7 +5,31 @@ date: "Wednesday, October 28, 2015"
 output: html_document
 ---
 
-### Load the data 
+### Purpose
+The scientific purpose of this study is to see how the statistical results from local water use studies compare to a national study. City-specific water use studies have determined that things like income can either increase water use (rich people don't care about their water bill and have fancy lawns), or decrease water use (maybe because income is normally positively correlated with education, and education is normally positively correlated with increased conservation awareness). The local studies have also looked at other covariates like house size, lot size, building age, end user age, and climate variables and they report different effects depending on the location of the study. This study proposes to use the USGS county level withdrawal data from 1985-2010 to see how per capita withdrawals have changed through time, within regions--and also explore some of the possible drivers suggested by the local studies.
+
+The dependent variable for this study is normalized water withdrawals:
+
+$$
+Wn ~ [gal/p/day] = \frac{Freshwater ~ withdrawals ~ [gal/day]}{county ~ population ~ [p]}
+$$
+
+Domestic deliveries represents approximately 2/3 of the total water withdrawn for public supply and we would expect per capita withdrawals to overestimate the actual per capita deliveries. Additionally, roughly 15% of the US population self-supplies their water–causing the county population to overestimate the population served by water providers. Meaning that both the numerator and denominator in the $Wn$ calculation are overestimates of the actual per capita water use, which suggests that at least some of the overestimation bias is likely offset. Regardless, we are not talking about per capita water use specifically and its important to note that. Below are some maps for 2010. __A__ is raw withdrawals and __B__ is normalized withdrawals.
+
+<br>
+
+<center><img src="Figures\\PS_maps.png" height="200px"/></center>
+
+<br>
+
+### Multilevel model
+Aside from the fact that Bayesian statistics are in vogue (sort of tongue-in-cheek but I think there is a good reason (other than computational advancements) that they are catching on!), there seems to be very good reasons to use a Bayesian mlm for this study. We are working with a nested dataset in which we expect there to be a hierarchical relationship in both the dependent variable and the estimated coefficients. People use water within a specific __water use context__, which is defined regionally by relatively static climate conditions and temporally by dynamic socio-economic trends. This is what we are saying for the null model: _There is a certain amount of mesaurement error for the county level withdrawal data, and we want to partially pool these estimates to gain a more realistic understanding of the regional variability in the withdrawal data. Additionally, we actually have legitimate priors for the distributions, and we want to incorporate those appropriately._ 
+
+We can also justify using a varying intercept and slope Bayesian mlm for the full model. _We expect certain predictors to have stronger effects in certain regions. Using an mlm let's us easily calculate different coefficients for each state based on partially pooled county level estimates. We can easily add more levels in a Bayesian framework by simply including additional priors._
+
+The code below uses some preliminary data to start building the models. As soon as I finish the open file report about the withdrawal data we should be ready to just drop the new data into the old models, do a little debugging, and it's off to the races.
+
+### Load the example data 
 
 Start with loading the libraries and visualizing the data,
 
@@ -46,7 +70,7 @@ rownames(x) = NULL
 
 #### Jags model
 
-Use jags to complete bayesian estimates for the null model,
+Use jags to complete Bayesian estimates for the null model. JG, you should recognize most of this from your (and Gelman's) radon example that you sent out. I am completely ok with using stan, but jags currently runs in under 10 seconds or so (for the null model anyway).
 ```{r, message=F,warning=F}
 library(rjags); library(ggmcmc)
 ## prepare a list of data to pass to JAGS model
@@ -119,7 +143,7 @@ x$alpha2 = mean.a.nopred
 x$sd = sd.a.nopred
 ```
 
-Before diganostic plots, let's take a look at the model results,
+Before diagnostic plots, let's take a look at the model results,
 
 ```{r, message=F,warning=F, fig.align='center', fig.height=10, cache=T}
 library(ggplot2)
@@ -140,8 +164,8 @@ p
 
 ```
 
-Posterior check of the last 10 parameters,
+For the figure above, the black points and SE bars are the lmer estimates and the red points and red HDI lines are the Bayesian estimate. And now for the Posterior check of the last 10 parameters,
 
-```{r, message=F,warning=F, fig.align='center', fig.height=10, cache=T}
+```{r, message=F,warning=F, fig.align='center', fig.height=7, cache=T}
 plot(mlm.Wn.nopred[,45:54])
 ```
