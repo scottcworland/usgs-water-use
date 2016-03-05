@@ -16,11 +16,14 @@ cnty2MSA <- function(cntydata, type){
 library(reshape2)
 load("MSA_cnty_ST_FIPS_REGION.rda")
 
-# find number of columns
-n = ncol(cntydata)
+# make sure FIPS codes are in correct format
+cntydata$cntyFIPS <- sprintf("%05d", as.numeric(cntydata$cntyFIPS))
 
 # returns counties, MSA, state, and region.
 cntys_in_MSA = merge(MSA_cnty_Region,cntydata,"cntyFIPS") 
+
+# find number of columns
+n = ncol(cntys_in_MSA)
 
 # create list for later
 MSAlist = list(GEOID = cntys_in_MSA$GEOID, MSA_NAME = cntys_in_MSA$MSA_NAME,
@@ -33,3 +36,9 @@ MSAcnty = aggregate(cntys_in_MSA[,6:n],MSAlist,type)
 # example
 # out = cnty2MSA(cntydata, "sum")
 # out = cnty2MSA(cntydata, "mean")
+
+
+
+
+
+
