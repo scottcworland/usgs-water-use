@@ -14,7 +14,9 @@ fips.clean <- function(d){
   d <- d[-which(d[,1] %in% remove),]
   
   ## counties to be renamed due to changing FIPS
-  d[which(d[,1]==12025)] = "12086"
+  if (any(which(d[,1]=="12025") == TRUE)) {
+  d[which(d[,1]=="12025")] = "12086"
+  }
 }
 
 # example
