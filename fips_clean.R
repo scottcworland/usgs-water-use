@@ -4,6 +4,7 @@
 
 fips.clean <- function(d){
   
+  if (any(d[,1] %in% remove) == TRUE) {
   ## counties to be removed due to changing FIPS
   remove <- c("08014","08001","08013","08059",
               "08123","51560","51005","51780",
@@ -11,10 +12,14 @@ fips.clean <- function(d){
               "24031","24031","24003","51015",
               "51790","51143","51590")
   
-  d <- d[-which(d[,1] %in% remove),]
+  d <- d[-which(d[,1] %in% remove),] 
+  } else {
+    d <- d
+  }
+
   
   ## counties to be renamed due to changing FIPS
-  if (any(which(d[,1]=="12025") == TRUE)) {
+  if (any(d[,1]=="12025") == TRUE) {
   d[which(d[,1]=="12025")] = "12086"
   } else {
     d <- d
