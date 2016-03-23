@@ -1,0 +1,21 @@
+
+# function to clean up FIPS
+# county FIPS has to be the first column
+
+fips.clean <- function(d){
+  
+  ## counties to be removed due to changing FIPS
+  remove <- c("08014","08001","08013","08059",
+              "08123","51560","51005","51780",
+              "51083","30113","30031","30067",
+              "24031","24031","24003","51015",
+              "51790","51143","51590")
+  
+  d <- d[-which(d[,1] %in% remove),]
+  
+  ## counties to be renamed due to changing FIPS
+  d[which(d[,1]==12025)] = "12086"
+}
+
+# example
+# d2 <- fips.clean(d)
