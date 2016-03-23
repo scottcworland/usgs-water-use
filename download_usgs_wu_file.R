@@ -14,7 +14,6 @@ combined <- rbind(start,X)
 start <- combined
 }
 
-
 # add fips codes
 combined$cntyFIPS <- paste0(combined$state_cd,combined$county_cd)
 
