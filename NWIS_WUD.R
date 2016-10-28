@@ -1,5 +1,4 @@
 
-setwd("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conservation\\USGSwaterUse\\usgs-water-use\\NWIS_wud_test")
 
 wudata.pull <- function(states){
 
