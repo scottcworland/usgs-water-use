@@ -11,12 +11,16 @@ setwd(getwd())
 load("MSA_Wn.rda")
 load("USGSWU1985_2010MSA.rda")
 
-## Prepare data for null model
+data = read.csv("Wn_mlm_bayesian_prelim_data.csv")
+MSA_cnty_Region$cntyFIPS <- sprintf("%05d", MSA_cnty_Region$cntyFIPS)
+
+## Prepare data for 2010 null model
 d = data.frame(WUMSA$State)
 d$GEOID = WUMSA$GEOID
 d$Wn=Wn$Wn2010
 d = na.omit(d) #kingston NY has value > 1000
 colnames(d) = c("State","MSA","Wn")
+rownames(d) = NULL # d = MSA level wn values
 
 
 # lmer ----
@@ -59,7 +63,8 @@ mlm.Wn.nopred.model = jags.model("Wn.multilevel.nopred.jags",
       n.adapt = 1000)
 
 # After warming up, take 2000 random samples.
-update(mlm.Wn.nopred.model,n.iter=2000)
+update(mlm.Wn.nopred.model,n.iter=2000) #burn-in
+
 mlm.Wn.nopred = coda.samples(mlm.Wn.nopred.model,
          variable.names = Wn.parameters,
          n.iter = 2000)

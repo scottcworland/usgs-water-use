@@ -1,317 +1,317 @@
 cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS,MSAclass
-01001,Autauga,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
-01003,Baldwin,AL,Southeast,Southeast,South,"Daphne-Fairhope-Foley, AL",19300,1
-01005,Barbour,AL,Southeast,Southeast,South,,,0
-01007,Bibb,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01009,Blount,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01011,Bullock,AL,Southeast,Southeast,South,,,0
-01013,Butler,AL,Southeast,Southeast,South,,,0
-01015,Calhoun,AL,Southeast,Southeast,South,"Anniston-Oxford-Jacksonville, AL",11500,1
-01017,Chambers,AL,Southeast,Southeast,South,,,0
-01019,Cherokee,AL,Southeast,Southeast,South,,,0
-01021,Chilton,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01023,Choctaw,AL,Southeast,Southeast,South,,,0
-01025,Clarke,AL,Southeast,Southeast,South,,,0
-01027,Clay,AL,Southeast,Southeast,South,,,0
-01029,Cleburne,AL,Southeast,Southeast,South,,,0
-01031,Coffee,AL,Southeast,Southeast,South,,,0
-01033,Colbert,AL,Southeast,Southeast,South,"Florence-Muscle Shoals, AL",22520,1
-01035,Conecuh,AL,Southeast,Southeast,South,,,0
-01037,Coosa,AL,Southeast,Southeast,South,,,0
-01039,Covington,AL,Southeast,Southeast,South,,,0
-01041,Crenshaw,AL,Southeast,Southeast,South,,,0
-01043,Cullman,AL,Southeast,Southeast,South,,,0
-01045,Dale,AL,Southeast,Southeast,South,,,0
-01047,Dallas,AL,Southeast,Southeast,South,,,0
-01049,De Kalb,AL,Southeast,Southeast,South,,,0
-01051,Elmore,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
-01053,Escambia,AL,Southeast,Southeast,South,,,0
-01055,Etowah,AL,Southeast,Southeast,South,"Gadsden, AL",23460,1
-01057,Fayette,AL,Southeast,Southeast,South,,,0
-01059,Franklin,AL,Southeast,Southeast,South,,,0
-01061,Geneva,AL,Southeast,Southeast,South,"Dothan, AL",20020,1
-01063,Greene,AL,Southeast,Southeast,South,,,0
-01065,Hale,AL,Southeast,Southeast,South,"Tuscaloosa, AL",46220,1
-01067,Henry,AL,Southeast,Southeast,South,"Dothan, AL",20020,1
-01069,Houston,AL,Southeast,Southeast,South,"Dothan, AL",20020,1
-01071,Jackson,AL,Southeast,Southeast,South,,,0
-01073,Jefferson,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01075,Lamar,AL,Southeast,Southeast,South,,,0
-01077,Lauderdale,AL,Southeast,Southeast,South,"Florence-Muscle Shoals, AL",22520,1
-01079,Lawrence,AL,Southeast,Southeast,South,"Decatur, AL",19460,1
-01081,Lee,AL,Southeast,Southeast,South,"Auburn-Opelika, AL",12220,1
-01083,Limestone,AL,Southeast,Southeast,South,"Huntsville, AL",26620,1
-01085,Lowndes,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
-01087,Macon,AL,Southeast,Southeast,South,,,0
-01089,Madison,AL,Southeast,Southeast,South,"Huntsville, AL",26620,1
-01091,Marengo,AL,Southeast,Southeast,South,,,0
-01093,Marion,AL,Southeast,Southeast,South,,,0
-01095,Marshall,AL,Southeast,Southeast,South,,,0
-01097,Mobile,AL,Southeast,Southeast,South,"Mobile, AL",33660,1
-01099,Monroe,AL,Southeast,Southeast,South,,,0
-01101,Montgomery,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
-01103,Morgan,AL,Southeast,Southeast,South,"Decatur, AL",19460,1
-01105,Perry,AL,Southeast,Southeast,South,,,0
-01107,Pickens,AL,Southeast,Southeast,South,"Tuscaloosa, AL",46220,1
-01109,Pike,AL,Southeast,Southeast,South,,,0
-01111,Randolph,AL,Southeast,Southeast,South,,,0
-01113,Russell,AL,Southeast,Southeast,South,"Columbus, GA-AL",17980,1
-01115,St Clair,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01117,Shelby,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01119,Sumter,AL,Southeast,Southeast,South,,,0
-01121,Talladega,AL,Southeast,Southeast,South,,,0
-01123,Tallapoosa,AL,Southeast,Southeast,South,,,0
-01125,Tuscaloosa,AL,Southeast,Southeast,South,"Tuscaloosa, AL",46220,1
-01127,Walker,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
-01129,Washington,AL,Southeast,Southeast,South,,,0
-01131,Wilcox,AL,Southeast,Southeast,South,,,0
-01133,Winston,AL,Southeast,Southeast,South,,,0
-02013,Aleutians East,AK,Far-West,Alaska,West,,,0
-02016,Aleutians West,AK,Far-West,Alaska,West,,,0
-02020,Anchorage,AK,Far-West,Alaska,West,,,0
-02050,Bethel,AK,Far-West,Alaska,West,,,0
-02060,Bristol Bay,AK,Far-West,Alaska,West,,,0
-02068,Denali,AK,Far-West,Alaska,West,,,0
-02070,Dillingham,AK,Far-West,Alaska,West,,,0
-02090,Fairbanks North Star,AK,Far-West,Alaska,West,,,0
-02100,Haines,AK,Far-West,Alaska,West,,,0
-02110,Juneau,AK,Far-West,Alaska,West,,,0
-02122,Kenai Peninsula,AK,Far-West,Alaska,West,,,0
-02130,Ketchikan Gateway,AK,Far-West,Alaska,West,,,0
-02150,Kodiak Island,AK,Far-West,Alaska,West,,,0
-02164,Lake and Peninsula,AK,Far-West,Alaska,West,,,0
-02170,Matanuska Susitna,AK,Far-West,Alaska,West,,,0
-02180,Nome,AK,Far-West,Alaska,West,,,0
-02185,North Slope,AK,Far-West,Alaska,West,,,0
-02188,Northwest Arctic,AK,Far-West,Alaska,West,,,0
-02201,Prince Wales Ketchikan,AK,Far-West,Alaska,West,,,0
-02220,Sitka,AK,Far-West,Alaska,West,,,0
-02232,Skagway Hoonah Angoon,AK,Far-West,Alaska,West,,,0
-02240,Southeast Fairbanks,AK,Far-West,Alaska,West,,,0
-02261,Valdez Cordova,AK,Far-West,Alaska,West,,,0
-02270,Wade Hampton,AK,Far-West,Alaska,West,,,0
-02280,Wrangell Petersburg,AK,Far-West,Alaska,West,,,0
-02282,Yakutat,AK,Far-West,Alaska,West,,,0
-02290,Yukon Koyukuk,AK,Far-West,Alaska,West,,,0
-04001,Apache,AZ,Southwest,Southwest,West,,,0
-04003,Cochise,AZ,Southwest,Southwest,West,"Sierra Vista-Douglas, AZ",43420,1
-04005,Coconino,AZ,Southwest,Southwest,West,"Flagstaff, AZ",22380,1
-04007,Gila,AZ,Southwest,Southwest,West,,,0
-04009,Graham,AZ,Southwest,Southwest,West,,,0
-04011,Greenlee,AZ,Southwest,Southwest,West,,,0
-04012,La Paz,AZ,Southwest,Southwest,West,,,0
-04013,Maricopa,AZ,Southwest,Southwest,West,"Phoenix-Mesa-Scottsdale, AZ",38060,1
-04015,Mohave,AZ,Southwest,Southwest,West,"Lake Havasu City-Kingman, AZ",29420,1
-04017,Navajo,AZ,Southwest,Southwest,West,,,0
-04019,Pima,AZ,Southwest,Southwest,West,"Tucson, AZ",46060,1
-04021,Pinal,AZ,Southwest,Southwest,West,"Phoenix-Mesa-Scottsdale, AZ",38060,1
-04023,Santa Cruz,AZ,Southwest,Southwest,West,,,0
-04025,Yavapai,AZ,Southwest,Southwest,West,"Prescott, AZ",39140,1
-04027,Yuma,AZ,Southwest,Southwest,West,"Yuma, AZ",49740,1
-05001,Arkansas,AR,Southeast,South,West,,,0
-05003,Ashley,AR,Southeast,South,West,,,0
-05005,Baxter,AR,Southeast,South,West,,,0
-05007,Benton,AR,Southeast,South,West,"Fayetteville-Springdale-Rogers, AR-MO",22220,1
-05009,Boone,AR,Southeast,South,West,,,0
-05011,Bradley,AR,Southeast,South,West,,,0
-05013,Calhoun,AR,Southeast,South,West,,,0
-05015,Carroll,AR,Southeast,South,West,,,0
-05017,Chicot,AR,Southeast,South,West,,,0
-05019,Clark,AR,Southeast,South,West,,,0
-05021,Clay,AR,Southeast,South,West,,,0
-05023,Cleburne,AR,Southeast,South,West,,,0
-05025,Cleveland,AR,Southeast,South,West,"Pine Bluff, AR",38220,1
-05027,Columbia,AR,Southeast,South,West,,,0
-05029,Conway,AR,Southeast,South,West,,,0
-05031,Craighead,AR,Southeast,South,West,"Jonesboro, AR",27860,1
-05033,Crawford,AR,Southeast,South,West,"Fort Smith, AR-OK",22900,1
-05035,Crittenden,AR,Southeast,South,West,"Memphis, TN-MS-AR",32820,1
-05037,Cross,AR,Southeast,South,West,,,0
-05039,Dallas,AR,Southeast,South,West,,,0
-05041,Desha,AR,Southeast,South,West,,,0
-05043,Drew,AR,Southeast,South,West,,,0
-05045,Faulkner,AR,Southeast,South,West,"Little Rock-North Little Rock-Conway, AR",30780,1
-05047,Franklin,AR,Southeast,South,West,,,0
-05049,Fulton,AR,Southeast,South,West,,,0
-05051,Garland,AR,Southeast,South,West,"Hot Springs, AR",26300,1
-05053,Grant,AR,Southeast,South,West,"Little Rock-North Little Rock-Conway, AR",30780,1
-05055,Greene,AR,Southeast,South,West,,,0
-05057,Hempstead,AR,Southeast,South,West,,,0
-05059,Hot Spring,AR,Southeast,South,West,,,0
-05061,Howard,AR,Southeast,South,West,,,0
-05063,Independence,AR,Southeast,South,West,,,0
-05065,Izard,AR,Southeast,South,West,,,0
-05067,Jackson,AR,Southeast,South,West,,,0
-05069,Jefferson,AR,Southeast,South,West,"Pine Bluff, AR",38220,1
-05071,Johnson,AR,Southeast,South,West,,,0
-05073,Lafayette,AR,Southeast,South,West,,,0
-05075,Lawrence,AR,Southeast,South,West,,,0
-05077,Lee,AR,Southeast,South,West,,,0
-05079,Lincoln,AR,Southeast,South,West,"Pine Bluff, AR",38220,1
-05081,Little River,AR,Southeast,South,West,"Texarkana, TX-AR",45500,1
-05083,Logan,AR,Southeast,South,West,,,0
-05085,Lonoke,AR,Southeast,South,West,"Little Rock-North Little Rock-Conway, AR",30780,1
-05087,Madison,AR,Southeast,South,West,"Fayetteville-Springdale-Rogers, AR-MO",22220,1
-05089,Marion,AR,Southeast,South,West,,,0
-05091,Miller,AR,Southeast,South,West,"Texarkana, TX-AR",45500,1
-05093,Mississippi,AR,Southeast,South,West,,,0
-05095,Monroe,AR,Southeast,South,West,,,0
-05099,Nevada,AR,Southeast,South,West,,,0
-05101,Newton,AR,Southeast,South,West,,,0
-05103,Ouachita,AR,Southeast,South,West,,,0
-05105,Perry,AR,Southeast,South,West,"Little Rock-North Little Rock-Conway, AR",30780,1
-05107,Phillips,AR,Southeast,South,West,,,0
-05109,Pike,AR,Southeast,South,West,,,0
-05111,Poinsett,AR,Southeast,South,West,"Jonesboro, AR",27860,1
-05113,Polk,AR,Southeast,South,West,,,0
-05115,Pope,AR,Southeast,South,West,,,0
-05117,Prairie,AR,Southeast,South,West,,,0
-05119,Pulaski,AR,Southeast,South,West,"Little Rock-North Little Rock-Conway, AR",30780,1
-05121,Randolph,AR,Southeast,South,West,,,0
-05123,St Francis,AR,Southeast,South,West,,,0
-05125,Saline,AR,Southeast,South,West,"Little Rock-North Little Rock-Conway, AR",30780,1
-05127,Scott,AR,Southeast,South,West,,,0
-05129,Searcy,AR,Southeast,South,West,,,0
-05131,Sebastian,AR,Southeast,South,West,"Fort Smith, AR-OK",22900,1
-05133,Sevier,AR,Southeast,South,West,,,0
-05135,Sharp,AR,Southeast,South,West,,,0
-05137,Stone,AR,Southeast,South,West,,,0
-05139,Union,AR,Southeast,South,West,,,0
-05141,Van Buren,AR,Southeast,South,West,,,0
-05143,Washington,AR,Southeast,South,West,"Fayetteville-Springdale-Rogers, AR-MO",22220,1
-05145,White,AR,Southeast,South,West,,,0
-05147,Woodruff,AR,Southeast,South,West,,,0
-05149,Yell,AR,Southeast,South,West,,,0
-06001,Alameda,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
-06003,Alpine,CA,Far-West,West,West,,,0
-06005,Amador,CA,Far-West,West,West,,,0
-06007,Butte,CA,Far-West,West,West,"Chico, CA",17020,1
-06009,Calaveras,CA,Far-West,West,West,,,0
-06011,Colusa,CA,Far-West,West,West,,,0
-06013,Contra Costa,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
-06015,Del Norte,CA,Far-West,West,West,,,0
-06017,El Dorado,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
-06019,Fresno,CA,Far-West,West,West,"Fresno, CA",23420,1
-06021,Glenn,CA,Far-West,West,West,,,0
-06023,Humboldt,CA,Far-West,West,West,,,0
-06025,Imperial,CA,Far-West,West,West,"El Centro, CA",20940,1
-06027,Inyo,CA,Far-West,West,West,,,0
-06029,Kern,CA,Far-West,West,West,"Bakersfield, CA",12540,1
-06031,Kings,CA,Far-West,West,West,"Hanford-Corcoran, CA",25260,1
-06033,Lake,CA,Far-West,West,West,,,0
-06035,Lassen,CA,Far-West,West,West,,,0
-06037,Los Angeles,CA,Far-West,West,West,"Los Angeles-Long Beach-Anaheim, CA",31080,1
-06039,Madera,CA,Far-West,West,West,"Madera, CA",31460,1
-06041,Marin,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
-06043,Mariposa,CA,Far-West,West,West,,,0
-06045,Mendocino,CA,Far-West,West,West,,,0
-06047,Merced,CA,Far-West,West,West,"Merced, CA",32900,1
-06049,Modoc,CA,Far-West,West,West,,,0
-06051,Mono,CA,Far-West,West,West,,,0
-06053,Monterey,CA,Far-West,West,West,"Salinas, CA",41500,1
-06055,Napa,CA,Far-West,West,West,"Napa, CA",34900,1
-06057,Nevada,CA,Far-West,West,West,,,0
-06059,Orange,CA,Far-West,West,West,"Los Angeles-Long Beach-Anaheim, CA",31080,1
-06061,Placer,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
-06063,Plumas,CA,Far-West,West,West,,,0
-06065,Riverside,CA,Far-West,West,West,"Riverside-San Bernardino-Ontario, CA",40140,1
-06067,Sacramento,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
-06069,San Benito,CA,Far-West,West,West,"San Jose-Sunnyvale-Santa Clara, CA",41940,1
-06071,San Bernardino,CA,Far-West,West,West,"Riverside-San Bernardino-Ontario, CA",40140,1
-06073,San Diego,CA,Far-West,West,West,"San Diego-Carlsbad, CA",41740,1
-06075,San Francisco,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
-06077,San Joaquin,CA,Far-West,West,West,"Stockton-Lodi, CA",44700,1
-06079,San Luis Obispo,CA,Far-West,West,West,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",42020,1
-06081,San Mateo,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
-06083,Santa Barbara,CA,Far-West,West,West,"Santa Maria-Santa Barbara, CA",42200,1
-06085,Santa Clara,CA,Far-West,West,West,"San Jose-Sunnyvale-Santa Clara, CA",41940,1
-06087,Santa Cruz,CA,Far-West,West,West,"Santa Cruz-Watsonville, CA",42100,1
-06089,Shasta,CA,Far-West,West,West,"Redding, CA",39820,1
-06091,Sierra,CA,Far-West,West,West,,,0
-06093,Siskiyou,CA,Far-West,West,West,,,0
-06095,Solano,CA,Far-West,West,West,"Vallejo-Fairfield, CA",46700,1
-06097,Sonoma,CA,Far-West,West,West,"Santa Rosa, CA",42220,1
-06099,Stanislaus,CA,Far-West,West,West,"Modesto, CA",33700,1
-06101,Sutter,CA,Far-West,West,West,"Yuba City, CA",49700,1
-06103,Tehama,CA,Far-West,West,West,,,0
-06105,Trinity,CA,Far-West,West,West,,,0
-06107,Tulare,CA,Far-West,West,West,"Visalia-Porterville, CA",47300,1
-06109,Tuolumne,CA,Far-West,West,West,,,0
-06111,Ventura,CA,Far-West,West,West,"Oxnard-Thousand Oaks-Ventura, CA",37100,1
-06113,Yolo,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
-06115,Yuba,CA,Far-West,West,West,"Yuba City, CA",49700,1
-08001,Adams,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08003,Alamosa,CO,Rocky-Mnt,Southwest,West,,,0
-08005,Arapahoe,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08007,Archuleta,CO,Rocky-Mnt,Southwest,West,,,0
-08009,Baca,CO,Rocky-Mnt,Southwest,West,,,0
-08011,Bent,CO,Rocky-Mnt,Southwest,West,,,0
-08013,Boulder,CO,Rocky-Mnt,Southwest,West,"Boulder, CO",14500,1
-08014,Broomfield,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08015,Chaffee,CO,Rocky-Mnt,Southwest,West,,,0
-08017,Cheyenne,CO,Rocky-Mnt,Southwest,West,,,0
-08019,Clear Creek,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08021,Conejos,CO,Rocky-Mnt,Southwest,West,,,0
-08023,Costilla,CO,Rocky-Mnt,Southwest,West,,,0
-08025,Crowley,CO,Rocky-Mnt,Southwest,West,,,0
-08027,Custer,CO,Rocky-Mnt,Southwest,West,,,0
-08029,Delta,CO,Rocky-Mnt,Southwest,West,,,0
-08031,Denver,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08033,Dolores,CO,Rocky-Mnt,Southwest,West,,,0
-08035,Douglas,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08037,Eagle,CO,Rocky-Mnt,Southwest,West,,,0
-08039,Elbert,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08041,El Paso,CO,Rocky-Mnt,Southwest,West,"Colorado Springs, CO",17820,1
-08043,Fremont,CO,Rocky-Mnt,Southwest,West,,,0
-08045,Garfield,CO,Rocky-Mnt,Southwest,West,,,0
-08047,Gilpin,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08049,Grand,CO,Rocky-Mnt,Southwest,West,,,0
-08051,Gunnison,CO,Rocky-Mnt,Southwest,West,,,0
-08053,Hinsdale,CO,Rocky-Mnt,Southwest,West,,,0
-08055,Huerfano,CO,Rocky-Mnt,Southwest,West,,,0
-08057,Jackson,CO,Rocky-Mnt,Southwest,West,,,0
-08059,Jefferson,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08061,Kiowa,CO,Rocky-Mnt,Southwest,West,,,0
-08063,Kit Carson,CO,Rocky-Mnt,Southwest,West,,,0
-08065,Lake,CO,Rocky-Mnt,Southwest,West,,,0
-08067,La Plata,CO,Rocky-Mnt,Southwest,West,,,0
-08069,Larimer,CO,Rocky-Mnt,Southwest,West,"Fort Collins, CO",22660,1
-08071,Las Animas,CO,Rocky-Mnt,Southwest,West,,,0
-08073,Lincoln,CO,Rocky-Mnt,Southwest,West,,,0
-08075,Logan,CO,Rocky-Mnt,Southwest,West,,,0
-08077,Mesa,CO,Rocky-Mnt,Southwest,West,"Grand Junction, CO",24300,1
-08079,Mineral,CO,Rocky-Mnt,Southwest,West,,,0
-08081,Moffat,CO,Rocky-Mnt,Southwest,West,,,0
-08083,Montezuma,CO,Rocky-Mnt,Southwest,West,,,0
-08085,Montrose,CO,Rocky-Mnt,Southwest,West,,,0
-08087,Morgan,CO,Rocky-Mnt,Southwest,West,,,0
-08089,Otero,CO,Rocky-Mnt,Southwest,West,,,0
-08091,Ouray,CO,Rocky-Mnt,Southwest,West,,,0
-08093,Park,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
-08095,Phillips,CO,Rocky-Mnt,Southwest,West,,,0
-08097,Pitkin,CO,Rocky-Mnt,Southwest,West,,,0
-08099,Prowers,CO,Rocky-Mnt,Southwest,West,,,0
-08101,Pueblo,CO,Rocky-Mnt,Southwest,West,"Pueblo, CO",39380,1
-08103,Rio Blanco,CO,Rocky-Mnt,Southwest,West,,,0
-08105,Rio Grande,CO,Rocky-Mnt,Southwest,West,,,0
-08107,Routt,CO,Rocky-Mnt,Southwest,West,,,0
-08109,Saguache,CO,Rocky-Mnt,Southwest,West,,,0
-08111,San Juan,CO,Rocky-Mnt,Southwest,West,,,0
-08113,San Miguel,CO,Rocky-Mnt,Southwest,West,,,0
-08115,Sedgwick,CO,Rocky-Mnt,Southwest,West,,,0
-08117,Summit,CO,Rocky-Mnt,Southwest,West,,,0
-08119,Teller,CO,Rocky-Mnt,Southwest,West,"Colorado Springs, CO",17820,1
-08121,Washington,CO,Rocky-Mnt,Southwest,West,,,0
-08123,Weld,CO,Rocky-Mnt,Southwest,West,"Greeley, CO",24540,1
-08125,Yuma,CO,Rocky-Mnt,Southwest,West,,,0
-09001,Fairfield,CT,New-England,Northeast,Northeast,"Bridgeport-Stamford-Norwalk, CT",14860,1
-09003,Hartford,CT,New-England,Northeast,Northeast,"Hartford-West Hartford-East Hartford, CT",25540,1
-09005,Litchfield,CT,New-England,Northeast,Northeast,,,0
-09007,Middlesex,CT,New-England,Northeast,Northeast,"Hartford-West Hartford-East Hartford, CT",25540,1
-09009,New Haven,CT,New-England,Northeast,Northeast,"New Haven-Milford, CT",35300,1
-09011,New London,CT,New-England,Northeast,Northeast,"Norwich-New London, CT",35980,1
-09013,Tolland,CT,New-England,Northeast,Northeast,"Hartford-West Hartford-East Hartford, CT",25540,1
-09015,Windham,CT,New-England,Northeast,Northeast,"Worcester, MA-CT",49340,1
+1001,Autauga,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
+1003,Baldwin,AL,Southeast,Southeast,South,"Daphne-Fairhope-Foley, AL",19300,1
+1005,Barbour,AL,Southeast,Southeast,South,,,0
+1007,Bibb,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1009,Blount,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1011,Bullock,AL,Southeast,Southeast,South,,,0
+1013,Butler,AL,Southeast,Southeast,South,,,0
+1015,Calhoun,AL,Southeast,Southeast,South,"Anniston-Oxford-Jacksonville, AL",11500,1
+1017,Chambers,AL,Southeast,Southeast,South,,,0
+1019,Cherokee,AL,Southeast,Southeast,South,,,0
+1021,Chilton,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1023,Choctaw,AL,Southeast,Southeast,South,,,0
+1025,Clarke,AL,Southeast,Southeast,South,,,0
+1027,Clay,AL,Southeast,Southeast,South,,,0
+1029,Cleburne,AL,Southeast,Southeast,South,,,0
+1031,Coffee,AL,Southeast,Southeast,South,,,0
+1033,Colbert,AL,Southeast,Southeast,South,"Florence-Muscle Shoals, AL",22520,1
+1035,Conecuh,AL,Southeast,Southeast,South,,,0
+1037,Coosa,AL,Southeast,Southeast,South,,,0
+1039,Covington,AL,Southeast,Southeast,South,,,0
+1041,Crenshaw,AL,Southeast,Southeast,South,,,0
+1043,Cullman,AL,Southeast,Southeast,South,,,0
+1045,Dale,AL,Southeast,Southeast,South,,,0
+1047,Dallas,AL,Southeast,Southeast,South,,,0
+1049,De Kalb,AL,Southeast,Southeast,South,,,0
+1051,Elmore,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
+1053,Escambia,AL,Southeast,Southeast,South,,,0
+1055,Etowah,AL,Southeast,Southeast,South,"Gadsden, AL",23460,1
+1057,Fayette,AL,Southeast,Southeast,South,,,0
+1059,Franklin,AL,Southeast,Southeast,South,,,0
+1061,Geneva,AL,Southeast,Southeast,South,"Dothan, AL",20020,1
+1063,Greene,AL,Southeast,Southeast,South,,,0
+1065,Hale,AL,Southeast,Southeast,South,"Tuscaloosa, AL",46220,1
+1067,Henry,AL,Southeast,Southeast,South,"Dothan, AL",20020,1
+1069,Houston,AL,Southeast,Southeast,South,"Dothan, AL",20020,1
+1071,Jackson,AL,Southeast,Southeast,South,,,0
+1073,Jefferson,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1075,Lamar,AL,Southeast,Southeast,South,,,0
+1077,Lauderdale,AL,Southeast,Southeast,South,"Florence-Muscle Shoals, AL",22520,1
+1079,Lawrence,AL,Southeast,Southeast,South,"Decatur, AL",19460,1
+1081,Lee,AL,Southeast,Southeast,South,"Auburn-Opelika, AL",12220,1
+1083,Limestone,AL,Southeast,Southeast,South,"Huntsville, AL",26620,1
+1085,Lowndes,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
+1087,Macon,AL,Southeast,Southeast,South,,,0
+1089,Madison,AL,Southeast,Southeast,South,"Huntsville, AL",26620,1
+1091,Marengo,AL,Southeast,Southeast,South,,,0
+1093,Marion,AL,Southeast,Southeast,South,,,0
+1095,Marshall,AL,Southeast,Southeast,South,,,0
+1097,Mobile,AL,Southeast,Southeast,South,"Mobile, AL",33660,1
+1099,Monroe,AL,Southeast,Southeast,South,,,0
+1101,Montgomery,AL,Southeast,Southeast,South,"Montgomery, AL",33860,1
+1103,Morgan,AL,Southeast,Southeast,South,"Decatur, AL",19460,1
+1105,Perry,AL,Southeast,Southeast,South,,,0
+1107,Pickens,AL,Southeast,Southeast,South,"Tuscaloosa, AL",46220,1
+1109,Pike,AL,Southeast,Southeast,South,,,0
+1111,Randolph,AL,Southeast,Southeast,South,,,0
+1113,Russell,AL,Southeast,Southeast,South,"Columbus, GA-AL",17980,1
+1115,St Clair,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1117,Shelby,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1119,Sumter,AL,Southeast,Southeast,South,,,0
+1121,Talladega,AL,Southeast,Southeast,South,,,0
+1123,Tallapoosa,AL,Southeast,Southeast,South,,,0
+1125,Tuscaloosa,AL,Southeast,Southeast,South,"Tuscaloosa, AL",46220,1
+1127,Walker,AL,Southeast,Southeast,South,"Birmingham-Hoover, AL",13820,1
+1129,Washington,AL,Southeast,Southeast,South,,,0
+1131,Wilcox,AL,Southeast,Southeast,South,,,0
+1133,Winston,AL,Southeast,Southeast,South,,,0
+2013,Aleutians East,AK,Far-West,Alaska,West,,,0
+2016,Aleutians West,AK,Far-West,Alaska,West,,,0
+2020,Anchorage,AK,Far-West,Alaska,West,,,0
+2050,Bethel,AK,Far-West,Alaska,West,,,0
+2060,Bristol Bay,AK,Far-West,Alaska,West,,,0
+2068,Denali,AK,Far-West,Alaska,West,,,0
+2070,Dillingham,AK,Far-West,Alaska,West,,,0
+2090,Fairbanks North Star,AK,Far-West,Alaska,West,,,0
+2100,Haines,AK,Far-West,Alaska,West,,,0
+2110,Juneau,AK,Far-West,Alaska,West,,,0
+2122,Kenai Peninsula,AK,Far-West,Alaska,West,,,0
+2130,Ketchikan Gateway,AK,Far-West,Alaska,West,,,0
+2150,Kodiak Island,AK,Far-West,Alaska,West,,,0
+2164,Lake and Peninsula,AK,Far-West,Alaska,West,,,0
+2170,Matanuska Susitna,AK,Far-West,Alaska,West,,,0
+2180,Nome,AK,Far-West,Alaska,West,,,0
+2185,North Slope,AK,Far-West,Alaska,West,,,0
+2188,Northwest Arctic,AK,Far-West,Alaska,West,,,0
+2201,Prince Wales Ketchikan,AK,Far-West,Alaska,West,,,0
+2220,Sitka,AK,Far-West,Alaska,West,,,0
+2232,Skagway Hoonah Angoon,AK,Far-West,Alaska,West,,,0
+2240,Southeast Fairbanks,AK,Far-West,Alaska,West,,,0
+2261,Valdez Cordova,AK,Far-West,Alaska,West,,,0
+2270,Wade Hampton,AK,Far-West,Alaska,West,,,0
+2280,Wrangell Petersburg,AK,Far-West,Alaska,West,,,0
+2282,Yakutat,AK,Far-West,Alaska,West,,,0
+2290,Yukon Koyukuk,AK,Far-West,Alaska,West,,,0
+4001,Apache,AZ,Southwest,Southwest,West,,,0
+4003,Cochise,AZ,Southwest,Southwest,West,"Sierra Vista-Douglas, AZ",43420,1
+4005,Coconino,AZ,Southwest,Southwest,West,"Flagstaff, AZ",22380,1
+4007,Gila,AZ,Southwest,Southwest,West,,,0
+4009,Graham,AZ,Southwest,Southwest,West,,,0
+4011,Greenlee,AZ,Southwest,Southwest,West,,,0
+4012,La Paz,AZ,Southwest,Southwest,West,,,0
+4013,Maricopa,AZ,Southwest,Southwest,West,"Phoenix-Mesa-Scottsdale, AZ",38060,1
+4015,Mohave,AZ,Southwest,Southwest,West,"Lake Havasu City-Kingman, AZ",29420,1
+4017,Navajo,AZ,Southwest,Southwest,West,,,0
+4019,Pima,AZ,Southwest,Southwest,West,"Tucson, AZ",46060,1
+4021,Pinal,AZ,Southwest,Southwest,West,"Phoenix-Mesa-Scottsdale, AZ",38060,1
+4023,Santa Cruz,AZ,Southwest,Southwest,West,,,0
+4025,Yavapai,AZ,Southwest,Southwest,West,"Prescott, AZ",39140,1
+4027,Yuma,AZ,Southwest,Southwest,West,"Yuma, AZ",49740,1
+5001,Arkansas,AR,Southeast,South,South,,,0
+5003,Ashley,AR,Southeast,South,South,,,0
+5005,Baxter,AR,Southeast,South,South,,,0
+5007,Benton,AR,Southeast,South,South,"Fayetteville-Springdale-Rogers, AR-MO",22220,1
+5009,Boone,AR,Southeast,South,South,,,0
+5011,Bradley,AR,Southeast,South,South,,,0
+5013,Calhoun,AR,Southeast,South,South,,,0
+5015,Carroll,AR,Southeast,South,South,,,0
+5017,Chicot,AR,Southeast,South,South,,,0
+5019,Clark,AR,Southeast,South,South,,,0
+5021,Clay,AR,Southeast,South,South,,,0
+5023,Cleburne,AR,Southeast,South,South,,,0
+5025,Cleveland,AR,Southeast,South,South,"Pine Bluff, AR",38220,1
+5027,Columbia,AR,Southeast,South,South,,,0
+5029,Conway,AR,Southeast,South,South,,,0
+5031,Craighead,AR,Southeast,South,South,"Jonesboro, AR",27860,1
+5033,Crawford,AR,Southeast,South,South,"Fort Smith, AR-OK",22900,1
+5035,Crittenden,AR,Southeast,South,South,"Memphis, TN-MS-AR",32820,1
+5037,Cross,AR,Southeast,South,South,,,0
+5039,Dallas,AR,Southeast,South,South,,,0
+5041,Desha,AR,Southeast,South,South,,,0
+5043,Drew,AR,Southeast,South,South,,,0
+5045,Faulkner,AR,Southeast,South,South,"Little Rock-North Little Rock-Conway, AR",30780,1
+5047,Franklin,AR,Southeast,South,South,,,0
+5049,Fulton,AR,Southeast,South,South,,,0
+5051,Garland,AR,Southeast,South,South,"Hot Springs, AR",26300,1
+5053,Grant,AR,Southeast,South,South,"Little Rock-North Little Rock-Conway, AR",30780,1
+5055,Greene,AR,Southeast,South,South,,,0
+5057,Hempstead,AR,Southeast,South,South,,,0
+5059,Hot Spring,AR,Southeast,South,South,,,0
+5061,Howard,AR,Southeast,South,South,,,0
+5063,Independence,AR,Southeast,South,South,,,0
+5065,Izard,AR,Southeast,South,South,,,0
+5067,Jackson,AR,Southeast,South,South,,,0
+5069,Jefferson,AR,Southeast,South,South,"Pine Bluff, AR",38220,1
+5071,Johnson,AR,Southeast,South,South,,,0
+5073,Lafayette,AR,Southeast,South,South,,,0
+5075,Lawrence,AR,Southeast,South,South,,,0
+5077,Lee,AR,Southeast,South,South,,,0
+5079,Lincoln,AR,Southeast,South,South,"Pine Bluff, AR",38220,1
+5081,Little River,AR,Southeast,South,South,"Texarkana, TX-AR",45500,1
+5083,Logan,AR,Southeast,South,South,,,0
+5085,Lonoke,AR,Southeast,South,South,"Little Rock-North Little Rock-Conway, AR",30780,1
+5087,Madison,AR,Southeast,South,South,"Fayetteville-Springdale-Rogers, AR-MO",22220,1
+5089,Marion,AR,Southeast,South,South,,,0
+5091,Miller,AR,Southeast,South,South,"Texarkana, TX-AR",45500,1
+5093,Mississippi,AR,Southeast,South,South,,,0
+5095,Monroe,AR,Southeast,South,South,,,0
+5099,Nevada,AR,Southeast,South,South,,,0
+5101,Newton,AR,Southeast,South,South,,,0
+5103,Ouachita,AR,Southeast,South,South,,,0
+5105,Perry,AR,Southeast,South,South,"Little Rock-North Little Rock-Conway, AR",30780,1
+5107,Phillips,AR,Southeast,South,South,,,0
+5109,Pike,AR,Southeast,South,South,,,0
+5111,Poinsett,AR,Southeast,South,South,"Jonesboro, AR",27860,1
+5113,Polk,AR,Southeast,South,South,,,0
+5115,Pope,AR,Southeast,South,South,,,0
+5117,Prairie,AR,Southeast,South,South,,,0
+5119,Pulaski,AR,Southeast,South,South,"Little Rock-North Little Rock-Conway, AR",30780,1
+5121,Randolph,AR,Southeast,South,South,,,0
+5123,St Francis,AR,Southeast,South,South,,,0
+5125,Saline,AR,Southeast,South,South,"Little Rock-North Little Rock-Conway, AR",30780,1
+5127,Scott,AR,Southeast,South,South,,,0
+5129,Searcy,AR,Southeast,South,South,,,0
+5131,Sebastian,AR,Southeast,South,South,"Fort Smith, AR-OK",22900,1
+5133,Sevier,AR,Southeast,South,South,,,0
+5135,Sharp,AR,Southeast,South,South,,,0
+5137,Stone,AR,Southeast,South,South,,,0
+5139,Union,AR,Southeast,South,South,,,0
+5141,Van Buren,AR,Southeast,South,South,,,0
+5143,Washington,AR,Southeast,South,South,"Fayetteville-Springdale-Rogers, AR-MO",22220,1
+5145,White,AR,Southeast,South,South,,,0
+5147,Woodruff,AR,Southeast,South,South,,,0
+5149,Yell,AR,Southeast,South,South,,,0
+6001,Alameda,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
+6003,Alpine,CA,Far-West,West,West,,,0
+6005,Amador,CA,Far-West,West,West,,,0
+6007,Butte,CA,Far-West,West,West,"Chico, CA",17020,1
+6009,Calaveras,CA,Far-West,West,West,,,0
+6011,Colusa,CA,Far-West,West,West,,,0
+6013,Contra Costa,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
+6015,Del Norte,CA,Far-West,West,West,,,0
+6017,El Dorado,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
+6019,Fresno,CA,Far-West,West,West,"Fresno, CA",23420,1
+6021,Glenn,CA,Far-West,West,West,,,0
+6023,Humboldt,CA,Far-West,West,West,,,0
+6025,Imperial,CA,Far-West,West,West,"El Centro, CA",20940,1
+6027,Inyo,CA,Far-West,West,West,,,0
+6029,Kern,CA,Far-West,West,West,"Bakersfield, CA",12540,1
+6031,Kings,CA,Far-West,West,West,"Hanford-Corcoran, CA",25260,1
+6033,Lake,CA,Far-West,West,West,,,0
+6035,Lassen,CA,Far-West,West,West,,,0
+6037,Los Angeles,CA,Far-West,West,West,"Los Angeles-Long Beach-Anaheim, CA",31080,1
+6039,Madera,CA,Far-West,West,West,"Madera, CA",31460,1
+6041,Marin,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
+6043,Mariposa,CA,Far-West,West,West,,,0
+6045,Mendocino,CA,Far-West,West,West,,,0
+6047,Merced,CA,Far-West,West,West,"Merced, CA",32900,1
+6049,Modoc,CA,Far-West,West,West,,,0
+6051,Mono,CA,Far-West,West,West,,,0
+6053,Monterey,CA,Far-West,West,West,"Salinas, CA",41500,1
+6055,Napa,CA,Far-West,West,West,"Napa, CA",34900,1
+6057,Nevada,CA,Far-West,West,West,,,0
+6059,Orange,CA,Far-West,West,West,"Los Angeles-Long Beach-Anaheim, CA",31080,1
+6061,Placer,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
+6063,Plumas,CA,Far-West,West,West,,,0
+6065,Riverside,CA,Far-West,West,West,"Riverside-San Bernardino-Ontario, CA",40140,1
+6067,Sacramento,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
+6069,San Benito,CA,Far-West,West,West,"San Jose-Sunnyvale-Santa Clara, CA",41940,1
+6071,San Bernardino,CA,Far-West,West,West,"Riverside-San Bernardino-Ontario, CA",40140,1
+6073,San Diego,CA,Far-West,West,West,"San Diego-Carlsbad, CA",41740,1
+6075,San Francisco,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
+6077,San Joaquin,CA,Far-West,West,West,"Stockton-Lodi, CA",44700,1
+6079,San Luis Obispo,CA,Far-West,West,West,"San Luis Obispo-Paso Robles-Arroyo Grande, CA",42020,1
+6081,San Mateo,CA,Far-West,West,West,"San Francisco-Oakland-Hayward, CA",41860,1
+6083,Santa Barbara,CA,Far-West,West,West,"Santa Maria-Santa Barbara, CA",42200,1
+6085,Santa Clara,CA,Far-West,West,West,"San Jose-Sunnyvale-Santa Clara, CA",41940,1
+6087,Santa Cruz,CA,Far-West,West,West,"Santa Cruz-Watsonville, CA",42100,1
+6089,Shasta,CA,Far-West,West,West,"Redding, CA",39820,1
+6091,Sierra,CA,Far-West,West,West,,,0
+6093,Siskiyou,CA,Far-West,West,West,,,0
+6095,Solano,CA,Far-West,West,West,"Vallejo-Fairfield, CA",46700,1
+6097,Sonoma,CA,Far-West,West,West,"Santa Rosa, CA",42220,1
+6099,Stanislaus,CA,Far-West,West,West,"Modesto, CA",33700,1
+6101,Sutter,CA,Far-West,West,West,"Yuba City, CA",49700,1
+6103,Tehama,CA,Far-West,West,West,,,0
+6105,Trinity,CA,Far-West,West,West,,,0
+6107,Tulare,CA,Far-West,West,West,"Visalia-Porterville, CA",47300,1
+6109,Tuolumne,CA,Far-West,West,West,,,0
+6111,Ventura,CA,Far-West,West,West,"Oxnard-Thousand Oaks-Ventura, CA",37100,1
+6113,Yolo,CA,Far-West,West,West,"Sacramento--Roseville--Arden-Arcade, CA",40900,1
+6115,Yuba,CA,Far-West,West,West,"Yuba City, CA",49700,1
+8001,Adams,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8003,Alamosa,CO,Rocky-Mnt,Southwest,West,,,0
+8005,Arapahoe,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8007,Archuleta,CO,Rocky-Mnt,Southwest,West,,,0
+8009,Baca,CO,Rocky-Mnt,Southwest,West,,,0
+8011,Bent,CO,Rocky-Mnt,Southwest,West,,,0
+8013,Boulder,CO,Rocky-Mnt,Southwest,West,"Boulder, CO",14500,1
+8014,Broomfield,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8015,Chaffee,CO,Rocky-Mnt,Southwest,West,,,0
+8017,Cheyenne,CO,Rocky-Mnt,Southwest,West,,,0
+8019,Clear Creek,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8021,Conejos,CO,Rocky-Mnt,Southwest,West,,,0
+8023,Costilla,CO,Rocky-Mnt,Southwest,West,,,0
+8025,Crowley,CO,Rocky-Mnt,Southwest,West,,,0
+8027,Custer,CO,Rocky-Mnt,Southwest,West,,,0
+8029,Delta,CO,Rocky-Mnt,Southwest,West,,,0
+8031,Denver,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8033,Dolores,CO,Rocky-Mnt,Southwest,West,,,0
+8035,Douglas,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8037,Eagle,CO,Rocky-Mnt,Southwest,West,,,0
+8039,Elbert,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8041,El Paso,CO,Rocky-Mnt,Southwest,West,"Colorado Springs, CO",17820,1
+8043,Fremont,CO,Rocky-Mnt,Southwest,West,,,0
+8045,Garfield,CO,Rocky-Mnt,Southwest,West,,,0
+8047,Gilpin,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8049,Grand,CO,Rocky-Mnt,Southwest,West,,,0
+8051,Gunnison,CO,Rocky-Mnt,Southwest,West,,,0
+8053,Hinsdale,CO,Rocky-Mnt,Southwest,West,,,0
+8055,Huerfano,CO,Rocky-Mnt,Southwest,West,,,0
+8057,Jackson,CO,Rocky-Mnt,Southwest,West,,,0
+8059,Jefferson,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8061,Kiowa,CO,Rocky-Mnt,Southwest,West,,,0
+8063,Kit Carson,CO,Rocky-Mnt,Southwest,West,,,0
+8065,Lake,CO,Rocky-Mnt,Southwest,West,,,0
+8067,La Plata,CO,Rocky-Mnt,Southwest,West,,,0
+8069,Larimer,CO,Rocky-Mnt,Southwest,West,"Fort Collins, CO",22660,1
+8071,Las Animas,CO,Rocky-Mnt,Southwest,West,,,0
+8073,Lincoln,CO,Rocky-Mnt,Southwest,West,,,0
+8075,Logan,CO,Rocky-Mnt,Southwest,West,,,0
+8077,Mesa,CO,Rocky-Mnt,Southwest,West,"Grand Junction, CO",24300,1
+8079,Mineral,CO,Rocky-Mnt,Southwest,West,,,0
+8081,Moffat,CO,Rocky-Mnt,Southwest,West,,,0
+8083,Montezuma,CO,Rocky-Mnt,Southwest,West,,,0
+8085,Montrose,CO,Rocky-Mnt,Southwest,West,,,0
+8087,Morgan,CO,Rocky-Mnt,Southwest,West,,,0
+8089,Otero,CO,Rocky-Mnt,Southwest,West,,,0
+8091,Ouray,CO,Rocky-Mnt,Southwest,West,,,0
+8093,Park,CO,Rocky-Mnt,Southwest,West,"Denver-Aurora-Lakewood, CO",19740,1
+8095,Phillips,CO,Rocky-Mnt,Southwest,West,,,0
+8097,Pitkin,CO,Rocky-Mnt,Southwest,West,,,0
+8099,Prowers,CO,Rocky-Mnt,Southwest,West,,,0
+8101,Pueblo,CO,Rocky-Mnt,Southwest,West,"Pueblo, CO",39380,1
+8103,Rio Blanco,CO,Rocky-Mnt,Southwest,West,,,0
+8105,Rio Grande,CO,Rocky-Mnt,Southwest,West,,,0
+8107,Routt,CO,Rocky-Mnt,Southwest,West,,,0
+8109,Saguache,CO,Rocky-Mnt,Southwest,West,,,0
+8111,San Juan,CO,Rocky-Mnt,Southwest,West,,,0
+8113,San Miguel,CO,Rocky-Mnt,Southwest,West,,,0
+8115,Sedgwick,CO,Rocky-Mnt,Southwest,West,,,0
+8117,Summit,CO,Rocky-Mnt,Southwest,West,,,0
+8119,Teller,CO,Rocky-Mnt,Southwest,West,"Colorado Springs, CO",17820,1
+8121,Washington,CO,Rocky-Mnt,Southwest,West,,,0
+8123,Weld,CO,Rocky-Mnt,Southwest,West,"Greeley, CO",24540,1
+8125,Yuma,CO,Rocky-Mnt,Southwest,West,,,0
+9001,Fairfield,CT,New-England,Northeast,Northeast,"Bridgeport-Stamford-Norwalk, CT",14860,1
+9003,Hartford,CT,New-England,Northeast,Northeast,"Hartford-West Hartford-East Hartford, CT",25540,1
+9005,Litchfield,CT,New-England,Northeast,Northeast,,,0
+9007,Middlesex,CT,New-England,Northeast,Northeast,"Hartford-West Hartford-East Hartford, CT",25540,1
+9009,New Haven,CT,New-England,Northeast,Northeast,"New Haven-Milford, CT",35300,1
+9011,New London,CT,New-England,Northeast,Northeast,"Norwich-New London, CT",35980,1
+9013,Tolland,CT,New-England,Northeast,Northeast,"Hartford-West Hartford-East Hartford, CT",25540,1
+9015,Windham,CT,New-England,Northeast,Northeast,"Worcester, MA-CT",49340,1
 10001,Kent,DE,Mideast,Northeast,South,"Dover, DE",20100,1
 10003,New Castle,DE,Mideast,Northeast,South,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
 10005,Sussex,DE,Mideast,Northeast,South,"Salisbury, MD-DE",41540,1
@@ -785,105 +785,105 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 18179,Wells,IN,Great-Lakes,Central,Midwest,"Fort Wayne, IN",23060,1
 18181,White,IN,Great-Lakes,Central,Midwest,,,0
 18183,Whitley,IN,Great-Lakes,Central,Midwest,"Fort Wayne, IN",23060,1
-19001,Adair,IA,Plains,East North Central,West,,,0
-19003,Adams,IA,Plains,East North Central,West,,,0
-19005,Allamakee,IA,Plains,East North Central,West,,,0
-19007,Appanoose,IA,Plains,East North Central,West,,,0
-19009,Audubon,IA,Plains,East North Central,West,,,0
-19011,Benton,IA,Plains,East North Central,West,"Cedar Rapids, IA",16300,1
-19013,Black Hawk,IA,Plains,East North Central,West,"Waterloo-Cedar Falls, IA",47940,1
-19015,Boone,IA,Plains,East North Central,West,,,0
-19017,Bremer,IA,Plains,East North Central,West,"Waterloo-Cedar Falls, IA",47940,1
-19019,Buchanan,IA,Plains,East North Central,West,,,0
-19021,Buena Vista,IA,Plains,East North Central,West,,,0
-19023,Butler,IA,Plains,East North Central,West,,,0
-19025,Calhoun,IA,Plains,East North Central,West,,,0
-19027,Carroll,IA,Plains,East North Central,West,,,0
-19029,Cass,IA,Plains,East North Central,West,,,0
-19031,Cedar,IA,Plains,East North Central,West,,,0
-19033,Cerro Gordo,IA,Plains,East North Central,West,,,0
-19035,Cherokee,IA,Plains,East North Central,West,,,0
-19037,Chickasaw,IA,Plains,East North Central,West,,,0
-19039,Clarke,IA,Plains,East North Central,West,,,0
-19041,Clay,IA,Plains,East North Central,West,,,0
-19043,Clayton,IA,Plains,East North Central,West,,,0
-19045,Clinton,IA,Plains,East North Central,West,,,0
-19047,Crawford,IA,Plains,East North Central,West,,,0
-19049,Dallas,IA,Plains,East North Central,West,"Des Moines-West Des Moines, IA",19780,1
-19051,Davis,IA,Plains,East North Central,West,,,0
-19053,Decatur,IA,Plains,East North Central,West,,,0
-19055,Delaware,IA,Plains,East North Central,West,,,0
-19057,Des Moines,IA,Plains,East North Central,West,,,0
-19059,Dickinson,IA,Plains,East North Central,West,,,0
-19061,Dubuque,IA,Plains,East North Central,West,"Dubuque, IA",20220,1
-19063,Emmet,IA,Plains,East North Central,West,,,0
-19065,Fayette,IA,Plains,East North Central,West,,,0
-19067,Floyd,IA,Plains,East North Central,West,,,0
-19069,Franklin,IA,Plains,East North Central,West,,,0
-19071,Fremont,IA,Plains,East North Central,West,,,0
-19073,Greene,IA,Plains,East North Central,West,,,0
-19075,Grundy,IA,Plains,East North Central,West,"Waterloo-Cedar Falls, IA",47940,1
-19077,Guthrie,IA,Plains,East North Central,West,"Des Moines-West Des Moines, IA",19780,1
-19079,Hamilton,IA,Plains,East North Central,West,,,0
-19081,Hancock,IA,Plains,East North Central,West,,,0
-19083,Hardin,IA,Plains,East North Central,West,,,0
-19085,Harrison,IA,Plains,East North Central,West,"Omaha-Council Bluffs, NE-IA",36540,1
-19087,Henry,IA,Plains,East North Central,West,,,0
-19089,Howard,IA,Plains,East North Central,West,,,0
-19091,Humboldt,IA,Plains,East North Central,West,,,0
-19093,Ida,IA,Plains,East North Central,West,,,0
-19095,Iowa,IA,Plains,East North Central,West,,,0
-19097,Jackson,IA,Plains,East North Central,West,,,0
-19099,Jasper,IA,Plains,East North Central,West,,,0
-19101,Jefferson,IA,Plains,East North Central,West,,,0
-19103,Johnson,IA,Plains,East North Central,West,"Iowa City, IA",26980,1
-19105,Jones,IA,Plains,East North Central,West,"Cedar Rapids, IA",16300,1
-19107,Keokuk,IA,Plains,East North Central,West,,,0
-19109,Kossuth,IA,Plains,East North Central,West,,,0
-19111,Lee,IA,Plains,East North Central,West,,,0
-19113,Linn,IA,Plains,East North Central,West,"Cedar Rapids, IA",16300,1
-19115,Louisa,IA,Plains,East North Central,West,,,0
-19117,Lucas,IA,Plains,East North Central,West,,,0
-19119,Lyon,IA,Plains,East North Central,West,,,0
-19121,Madison,IA,Plains,East North Central,West,"Des Moines-West Des Moines, IA",19780,1
-19123,Mahaska,IA,Plains,East North Central,West,,,0
-19125,Marion,IA,Plains,East North Central,West,,,0
-19127,Marshall,IA,Plains,East North Central,West,,,0
-19129,Mills,IA,Plains,East North Central,West,"Omaha-Council Bluffs, NE-IA",36540,1
-19131,Mitchell,IA,Plains,East North Central,West,,,0
-19133,Monona,IA,Plains,East North Central,West,,,0
-19135,Monroe,IA,Plains,East North Central,West,,,0
-19137,Montgomery,IA,Plains,East North Central,West,,,0
-19139,Muscatine,IA,Plains,East North Central,West,,,0
-19141,Obrien,IA,Plains,East North Central,West,,,0
-19143,Osceola,IA,Plains,East North Central,West,,,0
-19145,Page,IA,Plains,East North Central,West,,,0
-19147,Palo Alto,IA,Plains,East North Central,West,,,0
-19149,Plymouth,IA,Plains,East North Central,West,"Sioux City, IA-NE-SD",43580,1
-19151,Pocahontas,IA,Plains,East North Central,West,,,0
-19153,Polk,IA,Plains,East North Central,West,"Des Moines-West Des Moines, IA",19780,1
-19155,Pottawattamie,IA,Plains,East North Central,West,"Omaha-Council Bluffs, NE-IA",36540,1
-19157,Poweshiek,IA,Plains,East North Central,West,,,0
-19159,Ringgold,IA,Plains,East North Central,West,,,0
-19161,Sac,IA,Plains,East North Central,West,,,0
-19163,Scott,IA,Plains,East North Central,West,"Davenport-Moline-Rock Island, IA-IL",19340,1
-19165,Shelby,IA,Plains,East North Central,West,,,0
-19167,Sioux,IA,Plains,East North Central,West,,,0
-19169,Story,IA,Plains,East North Central,West,"Ames, IA",11180,1
-19171,Tama,IA,Plains,East North Central,West,,,0
-19173,Taylor,IA,Plains,East North Central,West,,,0
-19175,Union,IA,Plains,East North Central,West,,,0
-19177,Van Buren,IA,Plains,East North Central,West,,,0
-19179,Wapello,IA,Plains,East North Central,West,,,0
-19181,Warren,IA,Plains,East North Central,West,"Des Moines-West Des Moines, IA",19780,1
-19183,Washington,IA,Plains,East North Central,West,"Iowa City, IA",26980,1
-19185,Wayne,IA,Plains,East North Central,West,,,0
-19187,Webster,IA,Plains,East North Central,West,,,0
-19189,Winnebago,IA,Plains,East North Central,West,,,0
-19191,Winneshiek,IA,Plains,East North Central,West,,,0
-19193,Woodbury,IA,Plains,East North Central,West,"Sioux City, IA-NE-SD",43580,1
-19195,Worth,IA,Plains,East North Central,West,,,0
-19197,Wright,IA,Plains,East North Central,West,,,0
+19001,Adair,IA,Plains,East North Central,Midwest,,,0
+19003,Adams,IA,Plains,East North Central,Midwest,,,0
+19005,Allamakee,IA,Plains,East North Central,Midwest,,,0
+19007,Appanoose,IA,Plains,East North Central,Midwest,,,0
+19009,Audubon,IA,Plains,East North Central,Midwest,,,0
+19011,Benton,IA,Plains,East North Central,Midwest,"Cedar Rapids, IA",16300,1
+19013,Black Hawk,IA,Plains,East North Central,Midwest,"Waterloo-Cedar Falls, IA",47940,1
+19015,Boone,IA,Plains,East North Central,Midwest,,,0
+19017,Bremer,IA,Plains,East North Central,Midwest,"Waterloo-Cedar Falls, IA",47940,1
+19019,Buchanan,IA,Plains,East North Central,Midwest,,,0
+19021,Buena Vista,IA,Plains,East North Central,Midwest,,,0
+19023,Butler,IA,Plains,East North Central,Midwest,,,0
+19025,Calhoun,IA,Plains,East North Central,Midwest,,,0
+19027,Carroll,IA,Plains,East North Central,Midwest,,,0
+19029,Cass,IA,Plains,East North Central,Midwest,,,0
+19031,Cedar,IA,Plains,East North Central,Midwest,,,0
+19033,Cerro Gordo,IA,Plains,East North Central,Midwest,,,0
+19035,Cherokee,IA,Plains,East North Central,Midwest,,,0
+19037,Chickasaw,IA,Plains,East North Central,Midwest,,,0
+19039,Clarke,IA,Plains,East North Central,Midwest,,,0
+19041,Clay,IA,Plains,East North Central,Midwest,,,0
+19043,Clayton,IA,Plains,East North Central,Midwest,,,0
+19045,Clinton,IA,Plains,East North Central,Midwest,,,0
+19047,Crawford,IA,Plains,East North Central,Midwest,,,0
+19049,Dallas,IA,Plains,East North Central,Midwest,"Des Moines-West Des Moines, IA",19780,1
+19051,Davis,IA,Plains,East North Central,Midwest,,,0
+19053,Decatur,IA,Plains,East North Central,Midwest,,,0
+19055,Delaware,IA,Plains,East North Central,Midwest,,,0
+19057,Des Moines,IA,Plains,East North Central,Midwest,,,0
+19059,Dickinson,IA,Plains,East North Central,Midwest,,,0
+19061,Dubuque,IA,Plains,East North Central,Midwest,"Dubuque, IA",20220,1
+19063,Emmet,IA,Plains,East North Central,Midwest,,,0
+19065,Fayette,IA,Plains,East North Central,Midwest,,,0
+19067,Floyd,IA,Plains,East North Central,Midwest,,,0
+19069,Franklin,IA,Plains,East North Central,Midwest,,,0
+19071,Fremont,IA,Plains,East North Central,Midwest,,,0
+19073,Greene,IA,Plains,East North Central,Midwest,,,0
+19075,Grundy,IA,Plains,East North Central,Midwest,"Waterloo-Cedar Falls, IA",47940,1
+19077,Guthrie,IA,Plains,East North Central,Midwest,"Des Moines-West Des Moines, IA",19780,1
+19079,Hamilton,IA,Plains,East North Central,Midwest,,,0
+19081,Hancock,IA,Plains,East North Central,Midwest,,,0
+19083,Hardin,IA,Plains,East North Central,Midwest,,,0
+19085,Harrison,IA,Plains,East North Central,Midwest,"Omaha-Council Bluffs, NE-IA",36540,1
+19087,Henry,IA,Plains,East North Central,Midwest,,,0
+19089,Howard,IA,Plains,East North Central,Midwest,,,0
+19091,Humboldt,IA,Plains,East North Central,Midwest,,,0
+19093,Ida,IA,Plains,East North Central,Midwest,,,0
+19095,Iowa,IA,Plains,East North Central,Midwest,,,0
+19097,Jackson,IA,Plains,East North Central,Midwest,,,0
+19099,Jasper,IA,Plains,East North Central,Midwest,,,0
+19101,Jefferson,IA,Plains,East North Central,Midwest,,,0
+19103,Johnson,IA,Plains,East North Central,Midwest,"Iowa City, IA",26980,1
+19105,Jones,IA,Plains,East North Central,Midwest,"Cedar Rapids, IA",16300,1
+19107,Keokuk,IA,Plains,East North Central,Midwest,,,0
+19109,Kossuth,IA,Plains,East North Central,Midwest,,,0
+19111,Lee,IA,Plains,East North Central,Midwest,,,0
+19113,Linn,IA,Plains,East North Central,Midwest,"Cedar Rapids, IA",16300,1
+19115,Louisa,IA,Plains,East North Central,Midwest,,,0
+19117,Lucas,IA,Plains,East North Central,Midwest,,,0
+19119,Lyon,IA,Plains,East North Central,Midwest,,,0
+19121,Madison,IA,Plains,East North Central,Midwest,"Des Moines-West Des Moines, IA",19780,1
+19123,Mahaska,IA,Plains,East North Central,Midwest,,,0
+19125,Marion,IA,Plains,East North Central,Midwest,,,0
+19127,Marshall,IA,Plains,East North Central,Midwest,,,0
+19129,Mills,IA,Plains,East North Central,Midwest,"Omaha-Council Bluffs, NE-IA",36540,1
+19131,Mitchell,IA,Plains,East North Central,Midwest,,,0
+19133,Monona,IA,Plains,East North Central,Midwest,,,0
+19135,Monroe,IA,Plains,East North Central,Midwest,,,0
+19137,Montgomery,IA,Plains,East North Central,Midwest,,,0
+19139,Muscatine,IA,Plains,East North Central,Midwest,,,0
+19141,Obrien,IA,Plains,East North Central,Midwest,,,0
+19143,Osceola,IA,Plains,East North Central,Midwest,,,0
+19145,Page,IA,Plains,East North Central,Midwest,,,0
+19147,Palo Alto,IA,Plains,East North Central,Midwest,,,0
+19149,Plymouth,IA,Plains,East North Central,Midwest,"Sioux City, IA-NE-SD",43580,1
+19151,Pocahontas,IA,Plains,East North Central,Midwest,,,0
+19153,Polk,IA,Plains,East North Central,Midwest,"Des Moines-West Des Moines, IA",19780,1
+19155,Pottawattamie,IA,Plains,East North Central,Midwest,"Omaha-Council Bluffs, NE-IA",36540,1
+19157,Poweshiek,IA,Plains,East North Central,Midwest,,,0
+19159,Ringgold,IA,Plains,East North Central,Midwest,,,0
+19161,Sac,IA,Plains,East North Central,Midwest,,,0
+19163,Scott,IA,Plains,East North Central,Midwest,"Davenport-Moline-Rock Island, IA-IL",19340,1
+19165,Shelby,IA,Plains,East North Central,Midwest,,,0
+19167,Sioux,IA,Plains,East North Central,Midwest,,,0
+19169,Story,IA,Plains,East North Central,Midwest,"Ames, IA",11180,1
+19171,Tama,IA,Plains,East North Central,Midwest,,,0
+19173,Taylor,IA,Plains,East North Central,Midwest,,,0
+19175,Union,IA,Plains,East North Central,Midwest,,,0
+19177,Van Buren,IA,Plains,East North Central,Midwest,,,0
+19179,Wapello,IA,Plains,East North Central,Midwest,,,0
+19181,Warren,IA,Plains,East North Central,Midwest,"Des Moines-West Des Moines, IA",19780,1
+19183,Washington,IA,Plains,East North Central,Midwest,"Iowa City, IA",26980,1
+19185,Wayne,IA,Plains,East North Central,Midwest,,,0
+19187,Webster,IA,Plains,East North Central,Midwest,,,0
+19189,Winnebago,IA,Plains,East North Central,Midwest,,,0
+19191,Winneshiek,IA,Plains,East North Central,Midwest,,,0
+19193,Woodbury,IA,Plains,East North Central,Midwest,"Sioux City, IA-NE-SD",43580,1
+19195,Worth,IA,Plains,East North Central,Midwest,,,0
+19197,Wright,IA,Plains,East North Central,Midwest,,,0
 20001,Allen,KS,Plains,South,Midwest,,,0
 20003,Anderson,KS,Plains,South,Midwest,,,0
 20005,Atchison,KS,Plains,South,Midwest,,,0
@@ -1213,20 +1213,20 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 24045,Wicomico,MD,Mideast,Northeast,South,"Salisbury, MD-DE",41540,1
 24047,Worcester,MD,Mideast,Northeast,South,"Salisbury, MD-DE",41540,1
 24510,Baltimore City,MD,Mideast,Northeast,South,"Baltimore-Columbia-Towson, MD",12580,1
-25001,Barnstable,MA,New-England,Northeast,South,"Barnstable Town, MA",12700,1
-25003,Berkshire,MA,New-England,Northeast,South,"Pittsfield, MA",38340,1
-25005,Bristol,MA,New-England,Northeast,South,"Providence-Warwick, RI-MA",39300,1
-25007,Dukes,MA,New-England,Northeast,South,,,0
-25009,Essex,MA,New-England,Northeast,South,"Boston-Cambridge-Newton, MA-NH",14460,1
-25011,Franklin,MA,New-England,Northeast,South,,,0
-25013,Hampden,MA,New-England,Northeast,South,"Springfield, MA",44140,1
-25015,Hampshire,MA,New-England,Northeast,South,"Springfield, MA",44140,1
-25017,Middlesex,MA,New-England,Northeast,South,"Boston-Cambridge-Newton, MA-NH",14460,1
-25019,Nantucket,MA,New-England,Northeast,South,,,0
-25021,Norfolk,MA,New-England,Northeast,South,"Boston-Cambridge-Newton, MA-NH",14460,1
-25023,Plymouth,MA,New-England,Northeast,South,"Boston-Cambridge-Newton, MA-NH",14460,1
-25025,Suffolk,MA,New-England,Northeast,South,"Boston-Cambridge-Newton, MA-NH",14460,1
-25027,Worcester,MA,New-England,Northeast,South,"Worcester, MA-CT",49340,1
+25001,Barnstable,MA,New-England,Northeast,Northeast,"Barnstable Town, MA",12700,1
+25003,Berkshire,MA,New-England,Northeast,Northeast,"Pittsfield, MA",38340,1
+25005,Bristol,MA,New-England,Northeast,Northeast,"Providence-Warwick, RI-MA",39300,1
+25007,Dukes,MA,New-England,Northeast,Northeast,,,0
+25009,Essex,MA,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+25011,Franklin,MA,New-England,Northeast,Northeast,,,0
+25013,Hampden,MA,New-England,Northeast,Northeast,"Springfield, MA",44140,1
+25015,Hampshire,MA,New-England,Northeast,Northeast,"Springfield, MA",44140,1
+25017,Middlesex,MA,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+25019,Nantucket,MA,New-England,Northeast,Northeast,,,0
+25021,Norfolk,MA,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+25023,Plymouth,MA,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+25025,Suffolk,MA,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+25027,Worcester,MA,New-England,Northeast,Northeast,"Worcester, MA-CT",49340,1
 26001,Alcona,MI,Great-Lakes,East North Central,Midwest,,,0
 26003,Alger,MI,Great-Lakes,East North Central,Midwest,,,0
 26005,Allegan,MI,Great-Lakes,East North Central,Midwest,,,0
@@ -1397,88 +1397,88 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 27169,Winona,MN,Plains,East North Central,Midwest,,,0
 27171,Wright,MN,Plains,East North Central,Midwest,"Minneapolis-St. Paul-Bloomington, MN-WI",33460,1
 27173,Yellow Medicine,MN,Plains,East North Central,Midwest,,,0
-28001,Adams,MS,Southeast,South,Midwest,,,0
-28003,Alcorn,MS,Southeast,South,Midwest,,,0
-28005,Amite,MS,Southeast,South,Midwest,,,0
-28007,Attala,MS,Southeast,South,Midwest,,,0
-28009,Benton,MS,Southeast,South,Midwest,"Memphis, TN-MS-AR",32820,1
-28011,Bolivar,MS,Southeast,South,Midwest,,,0
-28013,Calhoun,MS,Southeast,South,Midwest,,,0
-28015,Carroll,MS,Southeast,South,Midwest,,,0
-28017,Chickasaw,MS,Southeast,South,Midwest,,,0
-28019,Choctaw,MS,Southeast,South,Midwest,,,0
-28021,Claiborne,MS,Southeast,South,Midwest,,,0
-28023,Clarke,MS,Southeast,South,Midwest,,,0
-28025,Clay,MS,Southeast,South,Midwest,,,0
-28027,Coahoma,MS,Southeast,South,Midwest,,,0
-28029,Copiah,MS,Southeast,South,Midwest,"Jackson, MS",27140,1
-28031,Covington,MS,Southeast,South,Midwest,,,0
-28033,De Soto,MS,Southeast,South,Midwest,"Memphis, TN-MS-AR",32820,1
-28035,Forrest,MS,Southeast,South,Midwest,"Hattiesburg, MS",25620,1
-28037,Franklin,MS,Southeast,South,Midwest,,,0
-28039,George,MS,Southeast,South,Midwest,,,0
-28041,Greene,MS,Southeast,South,Midwest,,,0
-28043,Grenada,MS,Southeast,South,Midwest,,,0
-28045,Hancock,MS,Southeast,South,Midwest,"Gulfport-Biloxi-Pascagoula, MS",25060,1
-28047,Harrison,MS,Southeast,South,Midwest,"Gulfport-Biloxi-Pascagoula, MS",25060,1
-28049,Hinds,MS,Southeast,South,Midwest,"Jackson, MS",27140,1
-28051,Holmes,MS,Southeast,South,Midwest,,,0
-28053,Humphreys,MS,Southeast,South,Midwest,,,0
-28055,Issaquena,MS,Southeast,South,Midwest,,,0
-28057,Itawamba,MS,Southeast,South,Midwest,,,0
-28059,Jackson,MS,Southeast,South,Midwest,"Gulfport-Biloxi-Pascagoula, MS",25060,1
-28061,Jasper,MS,Southeast,South,Midwest,,,0
-28063,Jefferson,MS,Southeast,South,Midwest,,,0
-28065,Jefferson Davis,MS,Southeast,South,Midwest,,,0
-28067,Jones,MS,Southeast,South,Midwest,,,0
-28069,Kemper,MS,Southeast,South,Midwest,,,0
-28071,Lafayette,MS,Southeast,South,Midwest,,,0
-28073,Lamar,MS,Southeast,South,Midwest,"Hattiesburg, MS",25620,1
-28075,Lauderdale,MS,Southeast,South,Midwest,,,0
-28077,Lawrence,MS,Southeast,South,Midwest,,,0
-28079,Leake,MS,Southeast,South,Midwest,,,0
-28081,Lee,MS,Southeast,South,Midwest,,,0
-28083,Leflore,MS,Southeast,South,Midwest,,,0
-28085,Lincoln,MS,Southeast,South,Midwest,,,0
-28087,Lowndes,MS,Southeast,South,Midwest,,,0
-28089,Madison,MS,Southeast,South,Midwest,"Jackson, MS",27140,1
-28091,Marion,MS,Southeast,South,Midwest,,,0
-28093,Marshall,MS,Southeast,South,Midwest,"Memphis, TN-MS-AR",32820,1
-28095,Monroe,MS,Southeast,South,Midwest,,,0
-28097,Montgomery,MS,Southeast,South,Midwest,,,0
-28099,Neshoba,MS,Southeast,South,Midwest,,,0
-28101,Newton,MS,Southeast,South,Midwest,,,0
-28103,Noxubee,MS,Southeast,South,Midwest,,,0
-28105,Oktibbeha,MS,Southeast,South,Midwest,,,0
-28107,Panola,MS,Southeast,South,Midwest,,,0
-28109,Pearl River,MS,Southeast,South,Midwest,,,0
-28111,Perry,MS,Southeast,South,Midwest,"Hattiesburg, MS",25620,1
-28113,Pike,MS,Southeast,South,Midwest,,,0
-28115,Pontotoc,MS,Southeast,South,Midwest,,,0
-28117,Prentiss,MS,Southeast,South,Midwest,,,0
-28119,Quitman,MS,Southeast,South,Midwest,,,0
-28121,Rankin,MS,Southeast,South,Midwest,"Jackson, MS",27140,1
-28123,Scott,MS,Southeast,South,Midwest,,,0
-28125,Sharkey,MS,Southeast,South,Midwest,,,0
-28127,Simpson,MS,Southeast,South,Midwest,"Jackson, MS",27140,1
-28129,Smith,MS,Southeast,South,Midwest,,,0
-28131,Stone,MS,Southeast,South,Midwest,,,0
-28133,Sunflower,MS,Southeast,South,Midwest,,,0
-28135,Tallahatchie,MS,Southeast,South,Midwest,,,0
-28137,Tate,MS,Southeast,South,Midwest,"Memphis, TN-MS-AR",32820,1
-28139,Tippah,MS,Southeast,South,Midwest,,,0
-28141,Tishomingo,MS,Southeast,South,Midwest,,,0
-28143,Tunica,MS,Southeast,South,Midwest,"Memphis, TN-MS-AR",32820,1
-28145,Union,MS,Southeast,South,Midwest,,,0
-28147,Walthall,MS,Southeast,South,Midwest,,,0
-28149,Warren,MS,Southeast,South,Midwest,,,0
-28151,Washington,MS,Southeast,South,Midwest,,,0
-28153,Wayne,MS,Southeast,South,Midwest,,,0
-28155,Webster,MS,Southeast,South,Midwest,,,0
-28157,Wilkinson,MS,Southeast,South,Midwest,,,0
-28159,Winston,MS,Southeast,South,Midwest,,,0
-28161,Yalobusha,MS,Southeast,South,Midwest,,,0
-28163,Yazoo,MS,Southeast,South,Midwest,"Jackson, MS",27140,1
+28001,Adams,MS,Southeast,South,South,,,0
+28003,Alcorn,MS,Southeast,South,South,,,0
+28005,Amite,MS,Southeast,South,South,,,0
+28007,Attala,MS,Southeast,South,South,,,0
+28009,Benton,MS,Southeast,South,South,"Memphis, TN-MS-AR",32820,1
+28011,Bolivar,MS,Southeast,South,South,,,0
+28013,Calhoun,MS,Southeast,South,South,,,0
+28015,Carroll,MS,Southeast,South,South,,,0
+28017,Chickasaw,MS,Southeast,South,South,,,0
+28019,Choctaw,MS,Southeast,South,South,,,0
+28021,Claiborne,MS,Southeast,South,South,,,0
+28023,Clarke,MS,Southeast,South,South,,,0
+28025,Clay,MS,Southeast,South,South,,,0
+28027,Coahoma,MS,Southeast,South,South,,,0
+28029,Copiah,MS,Southeast,South,South,"Jackson, MS",27140,1
+28031,Covington,MS,Southeast,South,South,,,0
+28033,De Soto,MS,Southeast,South,South,"Memphis, TN-MS-AR",32820,1
+28035,Forrest,MS,Southeast,South,South,"Hattiesburg, MS",25620,1
+28037,Franklin,MS,Southeast,South,South,,,0
+28039,George,MS,Southeast,South,South,,,0
+28041,Greene,MS,Southeast,South,South,,,0
+28043,Grenada,MS,Southeast,South,South,,,0
+28045,Hancock,MS,Southeast,South,South,"Gulfport-Biloxi-Pascagoula, MS",25060,1
+28047,Harrison,MS,Southeast,South,South,"Gulfport-Biloxi-Pascagoula, MS",25060,1
+28049,Hinds,MS,Southeast,South,South,"Jackson, MS",27140,1
+28051,Holmes,MS,Southeast,South,South,,,0
+28053,Humphreys,MS,Southeast,South,South,,,0
+28055,Issaquena,MS,Southeast,South,South,,,0
+28057,Itawamba,MS,Southeast,South,South,,,0
+28059,Jackson,MS,Southeast,South,South,"Gulfport-Biloxi-Pascagoula, MS",25060,1
+28061,Jasper,MS,Southeast,South,South,,,0
+28063,Jefferson,MS,Southeast,South,South,,,0
+28065,Jefferson Davis,MS,Southeast,South,South,,,0
+28067,Jones,MS,Southeast,South,South,,,0
+28069,Kemper,MS,Southeast,South,South,,,0
+28071,Lafayette,MS,Southeast,South,South,,,0
+28073,Lamar,MS,Southeast,South,South,"Hattiesburg, MS",25620,1
+28075,Lauderdale,MS,Southeast,South,South,,,0
+28077,Lawrence,MS,Southeast,South,South,,,0
+28079,Leake,MS,Southeast,South,South,,,0
+28081,Lee,MS,Southeast,South,South,,,0
+28083,Leflore,MS,Southeast,South,South,,,0
+28085,Lincoln,MS,Southeast,South,South,,,0
+28087,Lowndes,MS,Southeast,South,South,,,0
+28089,Madison,MS,Southeast,South,South,"Jackson, MS",27140,1
+28091,Marion,MS,Southeast,South,South,,,0
+28093,Marshall,MS,Southeast,South,South,"Memphis, TN-MS-AR",32820,1
+28095,Monroe,MS,Southeast,South,South,,,0
+28097,Montgomery,MS,Southeast,South,South,,,0
+28099,Neshoba,MS,Southeast,South,South,,,0
+28101,Newton,MS,Southeast,South,South,,,0
+28103,Noxubee,MS,Southeast,South,South,,,0
+28105,Oktibbeha,MS,Southeast,South,South,,,0
+28107,Panola,MS,Southeast,South,South,,,0
+28109,Pearl River,MS,Southeast,South,South,,,0
+28111,Perry,MS,Southeast,South,South,"Hattiesburg, MS",25620,1
+28113,Pike,MS,Southeast,South,South,,,0
+28115,Pontotoc,MS,Southeast,South,South,,,0
+28117,Prentiss,MS,Southeast,South,South,,,0
+28119,Quitman,MS,Southeast,South,South,,,0
+28121,Rankin,MS,Southeast,South,South,"Jackson, MS",27140,1
+28123,Scott,MS,Southeast,South,South,,,0
+28125,Sharkey,MS,Southeast,South,South,,,0
+28127,Simpson,MS,Southeast,South,South,"Jackson, MS",27140,1
+28129,Smith,MS,Southeast,South,South,,,0
+28131,Stone,MS,Southeast,South,South,,,0
+28133,Sunflower,MS,Southeast,South,South,,,0
+28135,Tallahatchie,MS,Southeast,South,South,,,0
+28137,Tate,MS,Southeast,South,South,"Memphis, TN-MS-AR",32820,1
+28139,Tippah,MS,Southeast,South,South,,,0
+28141,Tishomingo,MS,Southeast,South,South,,,0
+28143,Tunica,MS,Southeast,South,South,"Memphis, TN-MS-AR",32820,1
+28145,Union,MS,Southeast,South,South,,,0
+28147,Walthall,MS,Southeast,South,South,,,0
+28149,Warren,MS,Southeast,South,South,,,0
+28151,Washington,MS,Southeast,South,South,,,0
+28153,Wayne,MS,Southeast,South,South,,,0
+28155,Webster,MS,Southeast,South,South,,,0
+28157,Wilkinson,MS,Southeast,South,South,,,0
+28159,Winston,MS,Southeast,South,South,,,0
+28161,Yalobusha,MS,Southeast,South,South,,,0
+28163,Yazoo,MS,Southeast,South,South,"Jackson, MS",27140,1
 29001,Adair,MO,Plains,Central,Midwest,,,0
 29003,Andrew,MO,Plains,Central,Midwest,"St. Joseph, MO-KS",41140,1
 29005,Atchison,MO,Plains,Central,Midwest,,,0
@@ -1743,149 +1743,149 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 31181,Webster,NE,Plains,West North Central,Midwest,,,0
 31183,Wheeler,NE,Plains,West North Central,Midwest,,,0
 31185,York,NE,Plains,West North Central,Midwest,,,0
-32001,Churchill,NV,Far-West,West,Midwest,,,0
-32003,Clark,NV,Far-West,West,Midwest,"Las Vegas-Henderson-Paradise, NV",29820,1
-32005,Douglas,NV,Far-West,West,Midwest,,,0
-32007,Elko,NV,Far-West,West,Midwest,,,0
-32009,Esmeralda,NV,Far-West,West,Midwest,,,0
-32011,Eureka,NV,Far-West,West,Midwest,,,0
-32013,Humboldt,NV,Far-West,West,Midwest,,,0
-32015,Lander,NV,Far-West,West,Midwest,,,0
-32017,Lincoln,NV,Far-West,West,Midwest,,,0
-32019,Lyon,NV,Far-West,West,Midwest,,,0
-32021,Mineral,NV,Far-West,West,Midwest,,,0
-32023,Nye,NV,Far-West,West,Midwest,,,0
-32027,Pershing,NV,Far-West,West,Midwest,,,0
-32029,Storey,NV,Far-West,West,Midwest,"Reno, NV",39900,1
-32031,Washoe,NV,Far-West,West,Midwest,"Reno, NV",39900,1
-32033,White Pine,NV,Far-West,West,Midwest,,,0
-32510,Carson City,NV,Far-West,West,Midwest,"Carson City, NV",16180,1
-33001,Belknap,NH,New-England,Northeast,Midwest,,,0
-33003,Carroll,NH,New-England,Northeast,Midwest,,,0
-33005,Cheshire,NH,New-England,Northeast,Midwest,,,0
-33007,Coos,NH,New-England,Northeast,Midwest,,,0
-33009,Grafton,NH,New-England,Northeast,Midwest,,,0
-33011,Hillsborough,NH,New-England,Northeast,Midwest,"Manchester-Nashua, NH",31700,1
-33013,Merrimack,NH,New-England,Northeast,Midwest,,,0
-33015,Rockingham,NH,New-England,Northeast,Midwest,"Boston-Cambridge-Newton, MA-NH",14460,1
-33017,Strafford,NH,New-England,Northeast,Midwest,"Boston-Cambridge-Newton, MA-NH",14460,1
-33019,Sullivan,NH,New-England,Northeast,Midwest,,,0
-34001,Atlantic,NJ,Mideast,Northeast,Midwest,"Atlantic City-Hammonton, NJ",12100,1
-34003,Bergen,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34005,Burlington,NJ,Mideast,Northeast,Midwest,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
-34007,Camden,NJ,Mideast,Northeast,Midwest,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
-34009,Cape May,NJ,Mideast,Northeast,Midwest,"Ocean City, NJ",36140,1
-34011,Cumberland,NJ,Mideast,Northeast,Midwest,"Vineland-Bridgeton, NJ",47220,1
-34013,Essex,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34015,Gloucester,NJ,Mideast,Northeast,Midwest,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
-34017,Hudson,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34019,Hunterdon,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34021,Mercer,NJ,Mideast,Northeast,Midwest,"Trenton, NJ",45940,1
-34023,Middlesex,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34025,Monmouth,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34027,Morris,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34029,Ocean,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34031,Passaic,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34033,Salem,NJ,Mideast,Northeast,Midwest,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
-34035,Somerset,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34037,Sussex,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34039,Union,NJ,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-34041,Warren,NJ,Mideast,Northeast,Midwest,"Allentown-Bethlehem-Easton, PA-NJ",10900,1
-35001,Bernalillo,NM,Southwest,Southwest,Midwest,"Albuquerque, NM",10740,1
-35003,Catron,NM,Southwest,Southwest,Midwest,,,0
-35005,Chaves,NM,Southwest,Southwest,Midwest,,,0
-35006,Cibola,NM,Southwest,Southwest,Midwest,,,0
-35007,Colfax,NM,Southwest,Southwest,Midwest,,,0
-35009,Curry,NM,Southwest,Southwest,Midwest,,,0
-35011,De Baca,NM,Southwest,Southwest,Midwest,,,0
-35013,Dona Ana,NM,Southwest,Southwest,Midwest,"Las Cruces, NM",29740,1
-35015,Eddy,NM,Southwest,Southwest,Midwest,,,0
-35017,Grant,NM,Southwest,Southwest,Midwest,,,0
-35019,Guadalupe,NM,Southwest,Southwest,Midwest,,,0
-35021,Harding,NM,Southwest,Southwest,Midwest,,,0
-35023,Hidalgo,NM,Southwest,Southwest,Midwest,,,0
-35025,Lea,NM,Southwest,Southwest,Midwest,,,0
-35027,Lincoln,NM,Southwest,Southwest,Midwest,,,0
-35028,Los Alamos,NM,Southwest,Southwest,Midwest,,,0
-35029,Luna,NM,Southwest,Southwest,Midwest,,,0
-35031,Mckinley,NM,Southwest,Southwest,Midwest,,,0
-35033,Mora,NM,Southwest,Southwest,Midwest,,,0
-35035,Otero,NM,Southwest,Southwest,Midwest,,,0
-35037,Quay,NM,Southwest,Southwest,Midwest,,,0
-35039,Rio Arriba,NM,Southwest,Southwest,Midwest,,,0
-35041,Roosevelt,NM,Southwest,Southwest,Midwest,,,0
-35043,Sandoval,NM,Southwest,Southwest,Midwest,"Albuquerque, NM",10740,1
-35045,San Juan,NM,Southwest,Southwest,Midwest,"Farmington, NM",22140,1
-35047,San Miguel,NM,Southwest,Southwest,Midwest,,,0
-35049,Santa Fe,NM,Southwest,Southwest,Midwest,"Santa Fe, NM",42140,1
-35051,Sierra,NM,Southwest,Southwest,Midwest,,,0
-35053,Socorro,NM,Southwest,Southwest,Midwest,,,0
-35055,Taos,NM,Southwest,Southwest,Midwest,,,0
-35057,Torrance,NM,Southwest,Southwest,Midwest,"Albuquerque, NM",10740,1
-35059,Union,NM,Southwest,Southwest,Midwest,,,0
-35061,Valencia,NM,Southwest,Southwest,Midwest,"Albuquerque, NM",10740,1
-36001,Albany,NY,Mideast,Northeast,Midwest,"Albany-Schenectady-Troy, NY",10580,1
-36003,Allegany,NY,Mideast,Northeast,Midwest,,,0
-36005,Bronx,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36007,Broome,NY,Mideast,Northeast,Midwest,"Binghamton, NY",13780,1
-36009,Cattaraugus,NY,Mideast,Northeast,Midwest,,,0
-36011,Cayuga,NY,Mideast,Northeast,Midwest,,,0
-36013,Chautauqua,NY,Mideast,Northeast,Midwest,,,0
-36015,Chemung,NY,Mideast,Northeast,Midwest,"Elmira, NY",21300,1
-36017,Chenango,NY,Mideast,Northeast,Midwest,,,0
-36019,Clinton,NY,Mideast,Northeast,Midwest,,,0
-36021,Columbia,NY,Mideast,Northeast,Midwest,,,0
-36023,Cortland,NY,Mideast,Northeast,Midwest,,,0
-36025,Delaware,NY,Mideast,Northeast,Midwest,,,0
-36027,Dutchess,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36029,Erie,NY,Mideast,Northeast,Midwest,"Buffalo-Cheektowaga-Niagara Falls, NY",15380,1
-36031,Essex,NY,Mideast,Northeast,Midwest,,,0
-36033,Franklin,NY,Mideast,Northeast,Midwest,,,0
-36035,Fulton,NY,Mideast,Northeast,Midwest,,,0
-36037,Genesee,NY,Mideast,Northeast,Midwest,,,0
-36039,Greene,NY,Mideast,Northeast,Midwest,,,0
-36041,Hamilton,NY,Mideast,Northeast,Midwest,,,0
-36043,Herkimer,NY,Mideast,Northeast,Midwest,"Utica-Rome, NY",46540,1
-36045,Jefferson,NY,Mideast,Northeast,Midwest,"Watertown-Fort Drum, NY",48060,1
-36047,Kings,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36049,Lewis,NY,Mideast,Northeast,Midwest,,,0
-36051,Livingston,NY,Mideast,Northeast,Midwest,"Rochester, NY",40380,1
-36053,Madison,NY,Mideast,Northeast,Midwest,"Syracuse, NY",45060,1
-36055,Monroe,NY,Mideast,Northeast,Midwest,"Rochester, NY",40380,1
-36057,Montgomery,NY,Mideast,Northeast,Midwest,,,0
-36059,Nassau,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36061,New York,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36063,Niagara,NY,Mideast,Northeast,Midwest,"Buffalo-Cheektowaga-Niagara Falls, NY",15380,1
-36065,Oneida,NY,Mideast,Northeast,Midwest,"Utica-Rome, NY",46540,1
-36067,Onondaga,NY,Mideast,Northeast,Midwest,"Syracuse, NY",45060,1
-36069,Ontario,NY,Mideast,Northeast,Midwest,"Rochester, NY",40380,1
-36071,Orange,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36073,Orleans,NY,Mideast,Northeast,Midwest,"Rochester, NY",40380,1
-36075,Oswego,NY,Mideast,Northeast,Midwest,"Syracuse, NY",45060,1
-36077,Otsego,NY,Mideast,Northeast,Midwest,,,0
-36079,Putnam,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36081,Queens,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36083,Rensselaer,NY,Mideast,Northeast,Midwest,"Albany-Schenectady-Troy, NY",10580,1
-36085,Richmond,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36087,Rockland,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36089,St Lawrence,NY,Mideast,Northeast,Midwest,,,0
-36091,Saratoga,NY,Mideast,Northeast,Midwest,"Albany-Schenectady-Troy, NY",10580,1
-36093,Schenectady,NY,Mideast,Northeast,Midwest,"Albany-Schenectady-Troy, NY",10580,1
-36095,Schoharie,NY,Mideast,Northeast,Midwest,"Albany-Schenectady-Troy, NY",10580,1
-36097,Schuyler,NY,Mideast,Northeast,Midwest,,,0
-36099,Seneca,NY,Mideast,Northeast,Midwest,,,0
-36101,Steuben,NY,Mideast,Northeast,Midwest,,,0
-36103,Suffolk,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36105,Sullivan,NY,Mideast,Northeast,Midwest,,,0
-36107,Tioga,NY,Mideast,Northeast,Midwest,"Binghamton, NY",13780,1
-36109,Tompkins,NY,Mideast,Northeast,Midwest,"Ithaca, NY",27060,1
-36111,Ulster,NY,Mideast,Northeast,Midwest,"Kingston, NY",28740,1
-36113,Warren,NY,Mideast,Northeast,Midwest,"Glens Falls, NY",24020,1
-36115,Washington,NY,Mideast,Northeast,Midwest,"Glens Falls, NY",24020,1
-36117,Wayne,NY,Mideast,Northeast,Midwest,"Rochester, NY",40380,1
-36119,Westchester,NY,Mideast,Northeast,Midwest,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
-36121,Wyoming,NY,Mideast,Northeast,Midwest,,,0
-36123,Yates,NY,Mideast,Northeast,Midwest,"Rochester, NY",40380,1
+32001,Churchill,NV,Far-West,West,West,,,0
+32003,Clark,NV,Far-West,West,West,"Las Vegas-Henderson-Paradise, NV",29820,1
+32005,Douglas,NV,Far-West,West,West,,,0
+32007,Elko,NV,Far-West,West,West,,,0
+32009,Esmeralda,NV,Far-West,West,West,,,0
+32011,Eureka,NV,Far-West,West,West,,,0
+32013,Humboldt,NV,Far-West,West,West,,,0
+32015,Lander,NV,Far-West,West,West,,,0
+32017,Lincoln,NV,Far-West,West,West,,,0
+32019,Lyon,NV,Far-West,West,West,,,0
+32021,Mineral,NV,Far-West,West,West,,,0
+32023,Nye,NV,Far-West,West,West,,,0
+32027,Pershing,NV,Far-West,West,West,,,0
+32029,Storey,NV,Far-West,West,West,"Reno, NV",39900,1
+32031,Washoe,NV,Far-West,West,West,"Reno, NV",39900,1
+32033,White Pine,NV,Far-West,West,West,,,0
+32510,Carson City,NV,Far-West,West,West,"Carson City, NV",16180,1
+33001,Belknap,NH,New-England,Northeast,Northeast,,,0
+33003,Carroll,NH,New-England,Northeast,Northeast,,,0
+33005,Cheshire,NH,New-England,Northeast,Northeast,,,0
+33007,Coos,NH,New-England,Northeast,Northeast,,,0
+33009,Grafton,NH,New-England,Northeast,Northeast,,,0
+33011,Hillsborough,NH,New-England,Northeast,Northeast,"Manchester-Nashua, NH",31700,1
+33013,Merrimack,NH,New-England,Northeast,Northeast,,,0
+33015,Rockingham,NH,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+33017,Strafford,NH,New-England,Northeast,Northeast,"Boston-Cambridge-Newton, MA-NH",14460,1
+33019,Sullivan,NH,New-England,Northeast,Northeast,,,0
+34001,Atlantic,NJ,Mideast,Northeast,Northeast,"Atlantic City-Hammonton, NJ",12100,1
+34003,Bergen,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34005,Burlington,NJ,Mideast,Northeast,Northeast,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
+34007,Camden,NJ,Mideast,Northeast,Northeast,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
+34009,Cape May,NJ,Mideast,Northeast,Northeast,"Ocean City, NJ",36140,1
+34011,Cumberland,NJ,Mideast,Northeast,Northeast,"Vineland-Bridgeton, NJ",47220,1
+34013,Essex,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34015,Gloucester,NJ,Mideast,Northeast,Northeast,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
+34017,Hudson,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34019,Hunterdon,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34021,Mercer,NJ,Mideast,Northeast,Northeast,"Trenton, NJ",45940,1
+34023,Middlesex,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34025,Monmouth,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34027,Morris,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34029,Ocean,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34031,Passaic,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34033,Salem,NJ,Mideast,Northeast,Northeast,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",37980,1
+34035,Somerset,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34037,Sussex,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34039,Union,NJ,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+34041,Warren,NJ,Mideast,Northeast,Northeast,"Allentown-Bethlehem-Easton, PA-NJ",10900,1
+35001,Bernalillo,NM,Southwest,Southwest,West,"Albuquerque, NM",10740,1
+35003,Catron,NM,Southwest,Southwest,West,,,0
+35005,Chaves,NM,Southwest,Southwest,West,,,0
+35006,Cibola,NM,Southwest,Southwest,West,,,0
+35007,Colfax,NM,Southwest,Southwest,West,,,0
+35009,Curry,NM,Southwest,Southwest,West,,,0
+35011,De Baca,NM,Southwest,Southwest,West,,,0
+35013,Dona Ana,NM,Southwest,Southwest,West,"Las Cruces, NM",29740,1
+35015,Eddy,NM,Southwest,Southwest,West,,,0
+35017,Grant,NM,Southwest,Southwest,West,,,0
+35019,Guadalupe,NM,Southwest,Southwest,West,,,0
+35021,Harding,NM,Southwest,Southwest,West,,,0
+35023,Hidalgo,NM,Southwest,Southwest,West,,,0
+35025,Lea,NM,Southwest,Southwest,West,,,0
+35027,Lincoln,NM,Southwest,Southwest,West,,,0
+35028,Los Alamos,NM,Southwest,Southwest,West,,,0
+35029,Luna,NM,Southwest,Southwest,West,,,0
+35031,Mckinley,NM,Southwest,Southwest,West,,,0
+35033,Mora,NM,Southwest,Southwest,West,,,0
+35035,Otero,NM,Southwest,Southwest,West,,,0
+35037,Quay,NM,Southwest,Southwest,West,,,0
+35039,Rio Arriba,NM,Southwest,Southwest,West,,,0
+35041,Roosevelt,NM,Southwest,Southwest,West,,,0
+35043,Sandoval,NM,Southwest,Southwest,West,"Albuquerque, NM",10740,1
+35045,San Juan,NM,Southwest,Southwest,West,"Farmington, NM",22140,1
+35047,San Miguel,NM,Southwest,Southwest,West,,,0
+35049,Santa Fe,NM,Southwest,Southwest,West,"Santa Fe, NM",42140,1
+35051,Sierra,NM,Southwest,Southwest,West,,,0
+35053,Socorro,NM,Southwest,Southwest,West,,,0
+35055,Taos,NM,Southwest,Southwest,West,,,0
+35057,Torrance,NM,Southwest,Southwest,West,"Albuquerque, NM",10740,1
+35059,Union,NM,Southwest,Southwest,West,,,0
+35061,Valencia,NM,Southwest,Southwest,West,"Albuquerque, NM",10740,1
+36001,Albany,NY,Mideast,Northeast,Northeast,"Albany-Schenectady-Troy, NY",10580,1
+36003,Allegany,NY,Mideast,Northeast,Northeast,,,0
+36005,Bronx,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36007,Broome,NY,Mideast,Northeast,Northeast,"Binghamton, NY",13780,1
+36009,Cattaraugus,NY,Mideast,Northeast,Northeast,,,0
+36011,Cayuga,NY,Mideast,Northeast,Northeast,,,0
+36013,Chautauqua,NY,Mideast,Northeast,Northeast,,,0
+36015,Chemung,NY,Mideast,Northeast,Northeast,"Elmira, NY",21300,1
+36017,Chenango,NY,Mideast,Northeast,Northeast,,,0
+36019,Clinton,NY,Mideast,Northeast,Northeast,,,0
+36021,Columbia,NY,Mideast,Northeast,Northeast,,,0
+36023,Cortland,NY,Mideast,Northeast,Northeast,,,0
+36025,Delaware,NY,Mideast,Northeast,Northeast,,,0
+36027,Dutchess,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36029,Erie,NY,Mideast,Northeast,Northeast,"Buffalo-Cheektowaga-Niagara Falls, NY",15380,1
+36031,Essex,NY,Mideast,Northeast,Northeast,,,0
+36033,Franklin,NY,Mideast,Northeast,Northeast,,,0
+36035,Fulton,NY,Mideast,Northeast,Northeast,,,0
+36037,Genesee,NY,Mideast,Northeast,Northeast,,,0
+36039,Greene,NY,Mideast,Northeast,Northeast,,,0
+36041,Hamilton,NY,Mideast,Northeast,Northeast,,,0
+36043,Herkimer,NY,Mideast,Northeast,Northeast,"Utica-Rome, NY",46540,1
+36045,Jefferson,NY,Mideast,Northeast,Northeast,"Watertown-Fort Drum, NY",48060,1
+36047,Kings,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36049,Lewis,NY,Mideast,Northeast,Northeast,,,0
+36051,Livingston,NY,Mideast,Northeast,Northeast,"Rochester, NY",40380,1
+36053,Madison,NY,Mideast,Northeast,Northeast,"Syracuse, NY",45060,1
+36055,Monroe,NY,Mideast,Northeast,Northeast,"Rochester, NY",40380,1
+36057,Montgomery,NY,Mideast,Northeast,Northeast,,,0
+36059,Nassau,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36061,New York,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36063,Niagara,NY,Mideast,Northeast,Northeast,"Buffalo-Cheektowaga-Niagara Falls, NY",15380,1
+36065,Oneida,NY,Mideast,Northeast,Northeast,"Utica-Rome, NY",46540,1
+36067,Onondaga,NY,Mideast,Northeast,Northeast,"Syracuse, NY",45060,1
+36069,Ontario,NY,Mideast,Northeast,Northeast,"Rochester, NY",40380,1
+36071,Orange,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36073,Orleans,NY,Mideast,Northeast,Northeast,"Rochester, NY",40380,1
+36075,Oswego,NY,Mideast,Northeast,Northeast,"Syracuse, NY",45060,1
+36077,Otsego,NY,Mideast,Northeast,Northeast,,,0
+36079,Putnam,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36081,Queens,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36083,Rensselaer,NY,Mideast,Northeast,Northeast,"Albany-Schenectady-Troy, NY",10580,1
+36085,Richmond,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36087,Rockland,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36089,St Lawrence,NY,Mideast,Northeast,Northeast,,,0
+36091,Saratoga,NY,Mideast,Northeast,Northeast,"Albany-Schenectady-Troy, NY",10580,1
+36093,Schenectady,NY,Mideast,Northeast,Northeast,"Albany-Schenectady-Troy, NY",10580,1
+36095,Schoharie,NY,Mideast,Northeast,Northeast,"Albany-Schenectady-Troy, NY",10580,1
+36097,Schuyler,NY,Mideast,Northeast,Northeast,,,0
+36099,Seneca,NY,Mideast,Northeast,Northeast,,,0
+36101,Steuben,NY,Mideast,Northeast,Northeast,,,0
+36103,Suffolk,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36105,Sullivan,NY,Mideast,Northeast,Northeast,,,0
+36107,Tioga,NY,Mideast,Northeast,Northeast,"Binghamton, NY",13780,1
+36109,Tompkins,NY,Mideast,Northeast,Northeast,"Ithaca, NY",27060,1
+36111,Ulster,NY,Mideast,Northeast,Northeast,"Kingston, NY",28740,1
+36113,Warren,NY,Mideast,Northeast,Northeast,"Glens Falls, NY",24020,1
+36115,Washington,NY,Mideast,Northeast,Northeast,"Glens Falls, NY",24020,1
+36117,Wayne,NY,Mideast,Northeast,Northeast,"Rochester, NY",40380,1
+36119,Westchester,NY,Mideast,Northeast,Northeast,"New York-Newark-Jersey City, NY-NJ-PA",35620,1
+36121,Wyoming,NY,Mideast,Northeast,Northeast,,,0
+36123,Yates,NY,Mideast,Northeast,Northeast,"Rochester, NY",40380,1
 37001,Alamance,NC,Southeast,Southeast,South,"Burlington, NC",15500,1
 37003,Alexander,NC,Southeast,Southeast,South,"Hickory-Lenoir-Morganton, NC",25860,1
 37005,Alleghany,NC,Southeast,Southeast,South,,,0
@@ -2307,11 +2307,11 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 42129,Westmoreland,PA,Mideast,Northeast,Northeast,"Pittsburgh, PA",38300,1
 42131,Wyoming,PA,Mideast,Northeast,Northeast,"Scranton--Wilkes-Barre--Hazleton, PA",42540,1
 42133,York,PA,Mideast,Northeast,Northeast,"York-Hanover, PA",49620,1
-44001,Bristol,RI,New-England,Northeast,South,"Providence-Warwick, RI-MA",39300,1
-44003,Kent,RI,New-England,Northeast,South,"Providence-Warwick, RI-MA",39300,1
-44005,Newport,RI,New-England,Northeast,South,"Providence-Warwick, RI-MA",39300,1
-44007,Providence,RI,New-England,Northeast,South,"Providence-Warwick, RI-MA",39300,1
-44009,Washington,RI,New-England,Northeast,South,"Providence-Warwick, RI-MA",39300,1
+44001,Bristol,RI,New-England,Northeast,Northeast,"Providence-Warwick, RI-MA",39300,1
+44003,Kent,RI,New-England,Northeast,Northeast,"Providence-Warwick, RI-MA",39300,1
+44005,Newport,RI,New-England,Northeast,Northeast,"Providence-Warwick, RI-MA",39300,1
+44007,Providence,RI,New-England,Northeast,Northeast,"Providence-Warwick, RI-MA",39300,1
+44009,Washington,RI,New-England,Northeast,Northeast,"Providence-Warwick, RI-MA",39300,1
 45001,Abbeville,SC,Southeast,Southeast,South,,,0
 45003,Aiken,SC,Southeast,Southeast,South,"Augusta-Richmond County, GA-SC",12260,1
 45005,Allendale,SC,Southeast,Southeast,South,,,0
@@ -2802,20 +2802,20 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 49053,Washington,UT,Rocky-Mnt,Southwest,West,"St. George, UT",41100,1
 49055,Wayne,UT,Rocky-Mnt,Southwest,West,,,0
 49057,Weber,UT,Rocky-Mnt,Southwest,West,"Ogden-Clearfield, UT",36260,1
-50001,Addison,VT,New-England,Northeast,South,,,0
-50003,Bennington,VT,New-England,Northeast,South,,,0
-50005,Caledonia,VT,New-England,Northeast,South,,,0
-50007,Chittenden,VT,New-England,Northeast,South,"Burlington-South Burlington, VT",15540,1
-50009,Essex,VT,New-England,Northeast,South,,,0
-50011,Franklin,VT,New-England,Northeast,South,"Burlington-South Burlington, VT",15540,1
-50013,Grand Isle,VT,New-England,Northeast,South,"Burlington-South Burlington, VT",15540,1
-50015,Lamoille,VT,New-England,Northeast,South,,,0
-50017,Orange,VT,New-England,Northeast,South,,,0
-50019,Orleans,VT,New-England,Northeast,South,,,0
-50021,Rutland,VT,New-England,Northeast,South,,,0
-50023,Washington,VT,New-England,Northeast,South,,,0
-50025,Windham,VT,New-England,Northeast,South,,,0
-50027,Windsor,VT,New-England,Northeast,South,,,0
+50001,Addison,VT,New-England,Northeast,Northeast,,,0
+50003,Bennington,VT,New-England,Northeast,Northeast,,,0
+50005,Caledonia,VT,New-England,Northeast,Northeast,,,0
+50007,Chittenden,VT,New-England,Northeast,Northeast,"Burlington-South Burlington, VT",15540,1
+50009,Essex,VT,New-England,Northeast,Northeast,,,0
+50011,Franklin,VT,New-England,Northeast,Northeast,"Burlington-South Burlington, VT",15540,1
+50013,Grand Isle,VT,New-England,Northeast,Northeast,"Burlington-South Burlington, VT",15540,1
+50015,Lamoille,VT,New-England,Northeast,Northeast,,,0
+50017,Orange,VT,New-England,Northeast,Northeast,,,0
+50019,Orleans,VT,New-England,Northeast,Northeast,,,0
+50021,Rutland,VT,New-England,Northeast,Northeast,,,0
+50023,Washington,VT,New-England,Northeast,Northeast,,,0
+50025,Windham,VT,New-England,Northeast,Northeast,,,0
+50027,Windsor,VT,New-England,Northeast,Northeast,,,0
 51001,Accomack,VA,Southeast,Southeast,South,,,0
 51003,Albemarle,VA,Southeast,Southeast,South,,,0
 51005,Alleghany,VA,Southeast,Southeast,South,,,0
@@ -2952,45 +2952,45 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 51820,Waynesboro City,VA,Southeast,Southeast,South,,,0
 51830,Williamsburg City,VA,Southeast,Southeast,South,,,0
 51840,Winchester City,VA,Southeast,Southeast,South,,,0
-53001,Adams,WA,Far-West,Northwest,South,,,0
-53003,Asotin,WA,Far-West,Northwest,South,"Lewiston, ID-WA",30300,1
-53005,Benton,WA,Far-West,Northwest,South,"Kennewick-Richland, WA",28420,1
-53007,Chelan,WA,Far-West,Northwest,South,"Wenatchee, WA",48300,1
-53009,Clallam,WA,Far-West,Northwest,South,,,0
-53011,Clark,WA,Far-West,Northwest,South,"Portland-Vancouver-Hillsboro, OR-WA",38900,1
-53013,Columbia,WA,Far-West,Northwest,South,"Walla Walla, WA",47460,1
-53015,Cowlitz,WA,Far-West,Northwest,South,"Longview, WA",31020,1
-53017,Douglas,WA,Far-West,Northwest,South,"Wenatchee, WA",48300,1
-53019,Ferry,WA,Far-West,Northwest,South,,,0
-53021,Franklin,WA,Far-West,Northwest,South,"Kennewick-Richland, WA",28420,1
-53023,Garfield,WA,Far-West,Northwest,South,,,0
-53025,Grant,WA,Far-West,Northwest,South,,,0
-53027,Grays Harbor,WA,Far-West,Northwest,South,,,0
-53029,Island,WA,Far-West,Northwest,South,,,0
-53031,Jefferson,WA,Far-West,Northwest,South,,,0
-53033,King,WA,Far-West,Northwest,South,"Seattle-Tacoma-Bellevue, WA",42660,1
-53035,Kitsap,WA,Far-West,Northwest,South,"Bremerton-Silverdale, WA",14740,1
-53037,Kittitas,WA,Far-West,Northwest,South,,,0
-53039,Klickitat,WA,Far-West,Northwest,South,,,0
-53041,Lewis,WA,Far-West,Northwest,South,,,0
-53043,Lincoln,WA,Far-West,Northwest,South,,,0
-53045,Mason,WA,Far-West,Northwest,South,,,0
-53047,Okanogan,WA,Far-West,Northwest,South,,,0
-53049,Pacific,WA,Far-West,Northwest,South,,,0
-53051,Pend Oreille,WA,Far-West,Northwest,South,"Spokane-Spokane Valley, WA",44060,1
-53053,Pierce,WA,Far-West,Northwest,South,"Seattle-Tacoma-Bellevue, WA",42660,1
-53055,San Juan,WA,Far-West,Northwest,South,,,0
-53057,Skagit,WA,Far-West,Northwest,South,"Mount Vernon-Anacortes, WA",34580,1
-53059,Skamania,WA,Far-West,Northwest,South,"Portland-Vancouver-Hillsboro, OR-WA",38900,1
-53061,Snohomish,WA,Far-West,Northwest,South,"Seattle-Tacoma-Bellevue, WA",42660,1
-53063,Spokane,WA,Far-West,Northwest,South,"Spokane-Spokane Valley, WA",44060,1
-53065,Stevens,WA,Far-West,Northwest,South,"Spokane-Spokane Valley, WA",44060,1
-53067,Thurston,WA,Far-West,Northwest,South,"Olympia-Tumwater, WA",36500,1
-53069,Wahkiakum,WA,Far-West,Northwest,South,,,0
-53071,Walla Walla,WA,Far-West,Northwest,South,"Walla Walla, WA",47460,1
-53073,Whatcom,WA,Far-West,Northwest,South,"Bellingham, WA",13380,1
-53075,Whitman,WA,Far-West,Northwest,South,,,0
-53077,Yakima,WA,Far-West,Northwest,South,"Yakima, WA",49420,1
+53001,Adams,WA,Far-West,Northwest,West,,,0
+53003,Asotin,WA,Far-West,Northwest,West,"Lewiston, ID-WA",30300,1
+53005,Benton,WA,Far-West,Northwest,West,"Kennewick-Richland, WA",28420,1
+53007,Chelan,WA,Far-West,Northwest,West,"Wenatchee, WA",48300,1
+53009,Clallam,WA,Far-West,Northwest,West,,,0
+53011,Clark,WA,Far-West,Northwest,West,"Portland-Vancouver-Hillsboro, OR-WA",38900,1
+53013,Columbia,WA,Far-West,Northwest,West,"Walla Walla, WA",47460,1
+53015,Cowlitz,WA,Far-West,Northwest,West,"Longview, WA",31020,1
+53017,Douglas,WA,Far-West,Northwest,West,"Wenatchee, WA",48300,1
+53019,Ferry,WA,Far-West,Northwest,West,,,0
+53021,Franklin,WA,Far-West,Northwest,West,"Kennewick-Richland, WA",28420,1
+53023,Garfield,WA,Far-West,Northwest,West,,,0
+53025,Grant,WA,Far-West,Northwest,West,,,0
+53027,Grays Harbor,WA,Far-West,Northwest,West,,,0
+53029,Island,WA,Far-West,Northwest,West,,,0
+53031,Jefferson,WA,Far-West,Northwest,West,,,0
+53033,King,WA,Far-West,Northwest,West,"Seattle-Tacoma-Bellevue, WA",42660,1
+53035,Kitsap,WA,Far-West,Northwest,West,"Bremerton-Silverdale, WA",14740,1
+53037,Kittitas,WA,Far-West,Northwest,West,,,0
+53039,Klickitat,WA,Far-West,Northwest,West,,,0
+53041,Lewis,WA,Far-West,Northwest,West,,,0
+53043,Lincoln,WA,Far-West,Northwest,West,,,0
+53045,Mason,WA,Far-West,Northwest,West,,,0
+53047,Okanogan,WA,Far-West,Northwest,West,,,0
+53049,Pacific,WA,Far-West,Northwest,West,,,0
+53051,Pend Oreille,WA,Far-West,Northwest,West,"Spokane-Spokane Valley, WA",44060,1
+53053,Pierce,WA,Far-West,Northwest,West,"Seattle-Tacoma-Bellevue, WA",42660,1
+53055,San Juan,WA,Far-West,Northwest,West,,,0
+53057,Skagit,WA,Far-West,Northwest,West,"Mount Vernon-Anacortes, WA",34580,1
+53059,Skamania,WA,Far-West,Northwest,West,"Portland-Vancouver-Hillsboro, OR-WA",38900,1
+53061,Snohomish,WA,Far-West,Northwest,West,"Seattle-Tacoma-Bellevue, WA",42660,1
+53063,Spokane,WA,Far-West,Northwest,West,"Spokane-Spokane Valley, WA",44060,1
+53065,Stevens,WA,Far-West,Northwest,West,"Spokane-Spokane Valley, WA",44060,1
+53067,Thurston,WA,Far-West,Northwest,West,"Olympia-Tumwater, WA",36500,1
+53069,Wahkiakum,WA,Far-West,Northwest,West,,,0
+53071,Walla Walla,WA,Far-West,Northwest,West,"Walla Walla, WA",47460,1
+53073,Whatcom,WA,Far-West,Northwest,West,"Bellingham, WA",13380,1
+53075,Whitman,WA,Far-West,Northwest,West,,,0
+53077,Yakima,WA,Far-West,Northwest,West,"Yakima, WA",49420,1
 54001,Barbour,WV,Southeast,Central,South,,,0
 54003,Berkeley,WV,Southeast,Central,South,"Hagerstown-Martinsburg, MD-WV",25180,1
 54005,Boone,WV,Southeast,Central,South,"Charleston, WV",16620,1
@@ -3046,78 +3046,78 @@ cntyFIPS,cntyNAME,State,BEA_region,climate_region,census_region,MSA_NAME,MSAFIPS
 54105,Wirt,WV,Southeast,Central,South,"Parkersburg-Vienna, WV",37620,1
 54107,Wood,WV,Southeast,Central,South,"Parkersburg-Vienna, WV",37620,1
 54109,Wyoming,WV,Southeast,Central,South,,,0
-55001,Adams,WI,Great-Lakes,East North Central,South,,,0
-55003,Ashland,WI,Great-Lakes,East North Central,South,,,0
-55005,Barron,WI,Great-Lakes,East North Central,South,,,0
-55007,Bayfield,WI,Great-Lakes,East North Central,South,,,0
-55009,Brown,WI,Great-Lakes,East North Central,South,"Green Bay, WI",24580,1
-55011,Buffalo,WI,Great-Lakes,East North Central,South,,,0
-55013,Burnett,WI,Great-Lakes,East North Central,South,,,0
-55015,Calumet,WI,Great-Lakes,East North Central,South,"Appleton, WI",11540,1
-55017,Chippewa,WI,Great-Lakes,East North Central,South,"Eau Claire, WI",20740,1
-55019,Clark,WI,Great-Lakes,East North Central,South,,,0
-55021,Columbia,WI,Great-Lakes,East North Central,South,"Madison, WI",31540,1
-55023,Crawford,WI,Great-Lakes,East North Central,South,,,0
-55025,Dane,WI,Great-Lakes,East North Central,South,"Madison, WI",31540,1
-55027,Dodge,WI,Great-Lakes,East North Central,South,,,0
-55029,Door,WI,Great-Lakes,East North Central,South,,,0
-55031,Douglas,WI,Great-Lakes,East North Central,South,"Duluth, MN-WI",20260,1
-55033,Dunn,WI,Great-Lakes,East North Central,South,,,0
-55035,Eau Claire,WI,Great-Lakes,East North Central,South,"Eau Claire, WI",20740,1
-55037,Florence,WI,Great-Lakes,East North Central,South,,,0
-55039,Fond Du Lac,WI,Great-Lakes,East North Central,South,"Fond du Lac, WI",22540,1
-55041,Forest,WI,Great-Lakes,East North Central,South,,,0
-55043,Grant,WI,Great-Lakes,East North Central,South,,,0
-55045,Green,WI,Great-Lakes,East North Central,South,"Madison, WI",31540,1
-55047,Green Lake,WI,Great-Lakes,East North Central,South,,,0
-55049,Iowa,WI,Great-Lakes,East North Central,South,"Madison, WI",31540,1
-55051,Iron,WI,Great-Lakes,East North Central,South,,,0
-55053,Jackson,WI,Great-Lakes,East North Central,South,,,0
-55055,Jefferson,WI,Great-Lakes,East North Central,South,,,0
-55057,Juneau,WI,Great-Lakes,East North Central,South,,,0
-55059,Kenosha,WI,Great-Lakes,East North Central,South,"Chicago-Naperville-Elgin, IL-IN-WI",16980,1
-55061,Kewaunee,WI,Great-Lakes,East North Central,South,"Green Bay, WI",24580,1
-55063,La Crosse,WI,Great-Lakes,East North Central,South,"La Crosse-Onalaska, WI-MN",29100,1
-55065,Lafayette,WI,Great-Lakes,East North Central,South,,,0
-55067,Langlade,WI,Great-Lakes,East North Central,South,,,0
-55069,Lincoln,WI,Great-Lakes,East North Central,South,,,0
-55071,Manitowoc,WI,Great-Lakes,East North Central,South,,,0
-55073,Marathon,WI,Great-Lakes,East North Central,South,"Wausau, WI",48140,1
-55075,Marinette,WI,Great-Lakes,East North Central,South,,,0
-55077,Marquette,WI,Great-Lakes,East North Central,South,,,0
-55078,Menominee,WI,Great-Lakes,East North Central,South,,,0
-55079,Milwaukee,WI,Great-Lakes,East North Central,South,"Milwaukee-Waukesha-West Allis, WI",33340,1
-55081,Monroe,WI,Great-Lakes,East North Central,South,,,0
-55083,Oconto,WI,Great-Lakes,East North Central,South,"Green Bay, WI",24580,1
-55085,Oneida,WI,Great-Lakes,East North Central,South,,,0
-55087,Outagamie,WI,Great-Lakes,East North Central,South,"Appleton, WI",11540,1
-55089,Ozaukee,WI,Great-Lakes,East North Central,South,"Milwaukee-Waukesha-West Allis, WI",33340,1
-55091,Pepin,WI,Great-Lakes,East North Central,South,,,0
-55093,Pierce,WI,Great-Lakes,East North Central,South,"Minneapolis-St. Paul-Bloomington, MN-WI",33460,1
-55095,Polk,WI,Great-Lakes,East North Central,South,,,0
-55097,Portage,WI,Great-Lakes,East North Central,South,,,0
-55099,Price,WI,Great-Lakes,East North Central,South,,,0
-55101,Racine,WI,Great-Lakes,East North Central,South,"Racine, WI",39540,1
-55103,Richland,WI,Great-Lakes,East North Central,South,,,0
-55105,Rock,WI,Great-Lakes,East North Central,South,"Janesville-Beloit, WI",27500,1
-55107,Rusk,WI,Great-Lakes,East North Central,South,,,0
-55109,St Croix,WI,Great-Lakes,East North Central,South,"Minneapolis-St. Paul-Bloomington, MN-WI",33460,1
-55111,Sauk,WI,Great-Lakes,East North Central,South,,,0
-55113,Sawyer,WI,Great-Lakes,East North Central,South,,,0
-55115,Shawano,WI,Great-Lakes,East North Central,South,,,0
-55117,Sheboygan,WI,Great-Lakes,East North Central,South,"Sheboygan, WI",43100,1
-55119,Taylor,WI,Great-Lakes,East North Central,South,,,0
-55121,Trempealeau,WI,Great-Lakes,East North Central,South,,,0
-55123,Vernon,WI,Great-Lakes,East North Central,South,,,0
-55125,Vilas,WI,Great-Lakes,East North Central,South,,,0
-55127,Walworth,WI,Great-Lakes,East North Central,South,,,0
-55129,Washburn,WI,Great-Lakes,East North Central,South,,,0
-55131,Washington,WI,Great-Lakes,East North Central,South,"Milwaukee-Waukesha-West Allis, WI",33340,1
-55133,Waukesha,WI,Great-Lakes,East North Central,South,"Milwaukee-Waukesha-West Allis, WI",33340,1
-55135,Waupaca,WI,Great-Lakes,East North Central,South,,,0
-55137,Waushara,WI,Great-Lakes,East North Central,South,,,0
-55139,Winnebago,WI,Great-Lakes,East North Central,South,"Oshkosh-Neenah, WI",36780,1
-55141,Wood,WI,Great-Lakes,East North Central,South,,,0
+55001,Adams,WI,Great-Lakes,East North Central,Midwest,,,0
+55003,Ashland,WI,Great-Lakes,East North Central,Midwest,,,0
+55005,Barron,WI,Great-Lakes,East North Central,Midwest,,,0
+55007,Bayfield,WI,Great-Lakes,East North Central,Midwest,,,0
+55009,Brown,WI,Great-Lakes,East North Central,Midwest,"Green Bay, WI",24580,1
+55011,Buffalo,WI,Great-Lakes,East North Central,Midwest,,,0
+55013,Burnett,WI,Great-Lakes,East North Central,Midwest,,,0
+55015,Calumet,WI,Great-Lakes,East North Central,Midwest,"Appleton, WI",11540,1
+55017,Chippewa,WI,Great-Lakes,East North Central,Midwest,"Eau Claire, WI",20740,1
+55019,Clark,WI,Great-Lakes,East North Central,Midwest,,,0
+55021,Columbia,WI,Great-Lakes,East North Central,Midwest,"Madison, WI",31540,1
+55023,Crawford,WI,Great-Lakes,East North Central,Midwest,,,0
+55025,Dane,WI,Great-Lakes,East North Central,Midwest,"Madison, WI",31540,1
+55027,Dodge,WI,Great-Lakes,East North Central,Midwest,,,0
+55029,Door,WI,Great-Lakes,East North Central,Midwest,,,0
+55031,Douglas,WI,Great-Lakes,East North Central,Midwest,"Duluth, MN-WI",20260,1
+55033,Dunn,WI,Great-Lakes,East North Central,Midwest,,,0
+55035,Eau Claire,WI,Great-Lakes,East North Central,Midwest,"Eau Claire, WI",20740,1
+55037,Florence,WI,Great-Lakes,East North Central,Midwest,,,0
+55039,Fond Du Lac,WI,Great-Lakes,East North Central,Midwest,"Fond du Lac, WI",22540,1
+55041,Forest,WI,Great-Lakes,East North Central,Midwest,,,0
+55043,Grant,WI,Great-Lakes,East North Central,Midwest,,,0
+55045,Green,WI,Great-Lakes,East North Central,Midwest,"Madison, WI",31540,1
+55047,Green Lake,WI,Great-Lakes,East North Central,Midwest,,,0
+55049,Iowa,WI,Great-Lakes,East North Central,Midwest,"Madison, WI",31540,1
+55051,Iron,WI,Great-Lakes,East North Central,Midwest,,,0
+55053,Jackson,WI,Great-Lakes,East North Central,Midwest,,,0
+55055,Jefferson,WI,Great-Lakes,East North Central,Midwest,,,0
+55057,Juneau,WI,Great-Lakes,East North Central,Midwest,,,0
+55059,Kenosha,WI,Great-Lakes,East North Central,Midwest,"Chicago-Naperville-Elgin, IL-IN-WI",16980,1
+55061,Kewaunee,WI,Great-Lakes,East North Central,Midwest,"Green Bay, WI",24580,1
+55063,La Crosse,WI,Great-Lakes,East North Central,Midwest,"La Crosse-Onalaska, WI-MN",29100,1
+55065,Lafayette,WI,Great-Lakes,East North Central,Midwest,,,0
+55067,Langlade,WI,Great-Lakes,East North Central,Midwest,,,0
+55069,Lincoln,WI,Great-Lakes,East North Central,Midwest,,,0
+55071,Manitowoc,WI,Great-Lakes,East North Central,Midwest,,,0
+55073,Marathon,WI,Great-Lakes,East North Central,Midwest,"Wausau, WI",48140,1
+55075,Marinette,WI,Great-Lakes,East North Central,Midwest,,,0
+55077,Marquette,WI,Great-Lakes,East North Central,Midwest,,,0
+55078,Menominee,WI,Great-Lakes,East North Central,Midwest,,,0
+55079,Milwaukee,WI,Great-Lakes,East North Central,Midwest,"Milwaukee-Waukesha-West Allis, WI",33340,1
+55081,Monroe,WI,Great-Lakes,East North Central,Midwest,,,0
+55083,Oconto,WI,Great-Lakes,East North Central,Midwest,"Green Bay, WI",24580,1
+55085,Oneida,WI,Great-Lakes,East North Central,Midwest,,,0
+55087,Outagamie,WI,Great-Lakes,East North Central,Midwest,"Appleton, WI",11540,1
+55089,Ozaukee,WI,Great-Lakes,East North Central,Midwest,"Milwaukee-Waukesha-West Allis, WI",33340,1
+55091,Pepin,WI,Great-Lakes,East North Central,Midwest,,,0
+55093,Pierce,WI,Great-Lakes,East North Central,Midwest,"Minneapolis-St. Paul-Bloomington, MN-WI",33460,1
+55095,Polk,WI,Great-Lakes,East North Central,Midwest,,,0
+55097,Portage,WI,Great-Lakes,East North Central,Midwest,,,0
+55099,Price,WI,Great-Lakes,East North Central,Midwest,,,0
+55101,Racine,WI,Great-Lakes,East North Central,Midwest,"Racine, WI",39540,1
+55103,Richland,WI,Great-Lakes,East North Central,Midwest,,,0
+55105,Rock,WI,Great-Lakes,East North Central,Midwest,"Janesville-Beloit, WI",27500,1
+55107,Rusk,WI,Great-Lakes,East North Central,Midwest,,,0
+55109,St Croix,WI,Great-Lakes,East North Central,Midwest,"Minneapolis-St. Paul-Bloomington, MN-WI",33460,1
+55111,Sauk,WI,Great-Lakes,East North Central,Midwest,,,0
+55113,Sawyer,WI,Great-Lakes,East North Central,Midwest,,,0
+55115,Shawano,WI,Great-Lakes,East North Central,Midwest,,,0
+55117,Sheboygan,WI,Great-Lakes,East North Central,Midwest,"Sheboygan, WI",43100,1
+55119,Taylor,WI,Great-Lakes,East North Central,Midwest,,,0
+55121,Trempealeau,WI,Great-Lakes,East North Central,Midwest,,,0
+55123,Vernon,WI,Great-Lakes,East North Central,Midwest,,,0
+55125,Vilas,WI,Great-Lakes,East North Central,Midwest,,,0
+55127,Walworth,WI,Great-Lakes,East North Central,Midwest,,,0
+55129,Washburn,WI,Great-Lakes,East North Central,Midwest,,,0
+55131,Washington,WI,Great-Lakes,East North Central,Midwest,"Milwaukee-Waukesha-West Allis, WI",33340,1
+55133,Waukesha,WI,Great-Lakes,East North Central,Midwest,"Milwaukee-Waukesha-West Allis, WI",33340,1
+55135,Waupaca,WI,Great-Lakes,East North Central,Midwest,,,0
+55137,Waushara,WI,Great-Lakes,East North Central,Midwest,,,0
+55139,Winnebago,WI,Great-Lakes,East North Central,Midwest,"Oshkosh-Neenah, WI",36780,1
+55141,Wood,WI,Great-Lakes,East North Central,Midwest,,,0
 56001,Albany,WY,Northwest,West North Central,West,,,0
 56003,Big Horn,WY,Northwest,West North Central,West,,,0
 56005,Campbell,WY,Northwest,West North Central,West,,,0

@@ -244,7 +244,6 @@ building_permits2$year <- as.factor(building_permits2$year)
 
 cntylist2 <- list(precip2,
                   temp2,
-                  pdsi2,
                   landcover3,
                   pvi2,
                   voting_pop2,
@@ -259,6 +258,6 @@ cnty_wu_covariates_combined <- cnty_wu_covariates_combined[order(cnty_wu_covaria
                                                                  cnty_wu_covariates_combined$year), ]
 
 
-
+write.csv(cnty_wu_covariates_combined, file ="cnty_wu_covariates_combined.csv", row.names=F)
 
 

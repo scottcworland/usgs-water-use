@@ -1,4 +1,5 @@
 
+setwd("C:\\Users\\scworlan\\Documents\\Water Conservation\\R_conservation\\USGSwaterUse\\usgs-water-use\\NWIS_wud_test")
 
 wudata.pull <- function(states){
 
@@ -30,7 +31,7 @@ if(length(urlfile) == 1){wudata.out = start
 pb <- txtProgressBar(min = 0, max = length(urlfile)-1, style = 3)
 
 for (i in 2:length(urlfile)) {
-  X <- read.table(url(urlfile[i]), header=T, sep = "\t", na.strings = "-")
+  X <- read.table(url(urlfile[i]), header=T, sep ="\t", na.strings ="-")
   X <- X[-1,]
   wudata.out <- rbind(start,X)
   start <- wudata.out
@@ -43,13 +44,12 @@ cntyFIPS <- paste0(wudata.out$state_cd,wudata.out$county_cd)
 wudata.out <- cbind(cntyFIPS,wudata.out)
 
 # write the file to a csv add leading zeros to FIPS in excel
-fname = paste(paste('wudata_out_NWIS', Sys.Date(),sep=""), "csv", sep = ".")
-write.csv(wudata.out,file = fname ,row.names=F, na="-")
+fname = paste(paste('wudata_out_NWIS', Sys.Date(), sep=""), "csv", sep = ".")
+write.csv(wudata.out, file = fname, row.names=F, na="-")
 }
 
 # example for select states
-# state.sub = c('TN','GA','SD','TX','CA')
-# wudata.pull(state.sub)
+# wudata.pull(c('TN','GA','SD','TX','CA'))
 
 # example for all states
 # wudata.pull('all')

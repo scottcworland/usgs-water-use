@@ -1,13 +1,19 @@
 model {
   for (i in 1:n){
-    y[i] ~ dnorm (a[State[i]], tau.y)
+    y[i] ~ dnorm (a[State[i]], b[State[i]])
   }
-  tau.y <- pow(sigma.y, -2)
-  sigma.y ~ dunif (0, 100)
   for (j in 1:n.states){
     a[j] ~ dnorm (mu.a, tau.a)
+    b[j] ~ dgamma(shape.b, rate.b)
   }
   mu.a ~ dnorm (0, .0001)
   tau.a <- pow(sigma.a, -2)
-  sigma.a ~ dunif (0, 100)
+  sigma.a ~ dt(0,0.04, 1)I(0,)
+  
+  ## See Kruschke at http://doingbayesiandataanalysis.blogspot.com/2012/08/gamma-likelihood-parameterized-by-mode.html
+  shape.b <- 1 + mu.b * rate.b
+  rate.b <- (mu.b + sqrt(mu.b^2 + 4 * sd.b^2)) / (2 * sd.b^2)
+  
+  mu.b ~ dt(50, 0.02, 1)I(0,)
+  sd.b ~  dt(0, 0.04, 1)I(0,)
 }
